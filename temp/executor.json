@@ -1,0 +1,10 @@
+{
+  "name": "iTesting",
+  "type": "jenkins",
+  "url": "http://.baidu.com",
+  "buildOrder": 3,
+  "buildName": "allure-report_deploy#1",
+  "buildUrl": "http://localhost:63342/mytest/",
+  "reportUrl": "http://localhost:63342/mytest/reports/#",
+  "reportName": "唐仲凯的Allure Report"
+}

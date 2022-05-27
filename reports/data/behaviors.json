@@ -1,0 +1,177 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录以及增删改查测试项目",
+    "children" : [ {
+      "name" : "登录模块",
+      "children" : [ {
+        "name" : "登录成功用例",
+        "uid" : "ab44993b3a29d67b",
+        "parentUid" : "b84e2106e4ac93b849e38958955bfa18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652845141245,
+          "stop" : 1652845142889,
+          "duration" : 1644
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户名密码信息', 'username': 'admin', 'password': 'admin'}" ]
+      } ],
+      "uid" : "b84e2106e4ac93b849e38958955bfa18"
+    }, {
+      "name" : "测试项目",
+      "children" : [ {
+        "name" : "增删改查测试项目",
+        "uid" : "ae7868b7932741b0",
+        "parentUid" : "fc8a5c8eab6e08c6fc10c632b0d57252",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652845146117,
+          "stop" : 1652845160822,
+          "duration" : 14705
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '项目1', 'projectname': '123', 'num': '1', 'version': '第一版'}" ]
+      }, {
+        "name" : "增删改查测试项目",
+        "uid" : "aa1508e059c7f8d0",
+        "parentUid" : "fc8a5c8eab6e08c6fc10c632b0d57252",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652845160830,
+          "stop" : 1652845175321,
+          "duration" : 14491
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '项目2', 'projectname': '中文', 'num': '2', 'version': '第二版'}" ]
+      } ],
+      "uid" : "fc8a5c8eab6e08c6fc10c632b0d57252"
+    }, {
+      "name" : "测试失败效果",
+      "children" : [ {
+        "name" : "失败测试",
+        "uid" : "5a75ff413f6d9eaf",
+        "parentUid" : "d0f8c44b41e3c523f8a8ebf58398ddb0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652845175324,
+          "stop" : 1652845175324,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d0f8c44b41e3c523f8a8ebf58398ddb0"
+    } ],
+    "uid" : "1e82107eaf55763196580a21da8e00a6"
+  }, {
+    "name" : "测试报告显示",
+    "children" : [ {
+      "name" : "成功模块",
+      "children" : [ {
+        "name" : "test_success",
+        "uid" : "d631965135a11f05",
+        "parentUid" : "f96995aa44ca4e306fc38b5257aba0dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652845175414,
+          "stop" : 1652845175414,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f96995aa44ca4e306fc38b5257aba0dd"
+    }, {
+      "name" : "失败模块",
+      "children" : [ {
+        "name" : "test_failure",
+        "uid" : "1ea3869a929f928b",
+        "parentUid" : "97cf607549ed4dc39c49b42eefff4823",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652845175415,
+          "stop" : 1652845175415,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "97cf607549ed4dc39c49b42eefff4823"
+    }, {
+      "name" : "跳过模块",
+      "children" : [ {
+        "name" : "test_skip",
+        "uid" : "c9724e604208f560",
+        "parentUid" : "83aa86c4715d671eeebc3326e0099275",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1652845175420,
+          "stop" : 1652845175420,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "83aa86c4715d671eeebc3326e0099275"
+    }, {
+      "name" : "中断模块",
+      "children" : [ {
+        "name" : "test_broken",
+        "uid" : "3a6b42e58c07192f",
+        "parentUid" : "c0739b6a296035e352ea9419095889ef",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652845175424,
+          "stop" : 1652845175424,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c0739b6a296035e352ea9419095889ef"
+    } ],
+    "uid" : "14cc46bdac82f2a5d0051cef3ed209b1"
+  } ]
+}

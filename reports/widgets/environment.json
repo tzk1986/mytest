@@ -1,0 +1,34 @@
+[ {
+  "values" : [ "Centos7.6" ],
+  "name" : "systemVersion"
+}, {
+  "values" : [ "1.17.0" ],
+  "name" : "appiumVersion"
+}, {
+  "values" : [ "3.8.0" ],
+  "name" : "pythonVersion"
+}, {
+  "values" : [ "2.12.1" ],
+  "name" : "allureVersion"
+}, {
+  "values" : [ "YeShen" ],
+  "name" : "phoneSimulator"
+}, {
+  "values" : [ "Android5.1.1, Android7.1.2" ],
+  "name" : "platformName"
+}, {
+  "values" : [ "com.xxzb.fenwoo" ],
+  "name" : "appPackage"
+}, {
+  "values" : [ "com.xxzb.fenwoo.activity.addition.WelcomeActivity" ],
+  "name" : "appActivity"
+}, {
+  "values" : [ "Chrome" ],
+  "name" : "Browser"
+}, {
+  "values" : [ "63.0" ],
+  "name" : "Browser.Version"
+}, {
+  "values" : [ "Production" ],
+  "name" : "Stand"
+} ]

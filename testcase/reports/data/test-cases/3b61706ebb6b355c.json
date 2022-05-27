@@ -1,0 +1,137 @@
+{
+  "uid" : "3b61706ebb6b355c",
+  "name" : "登录成功用例",
+  "fullName" : "testcase.test_login_new.TestLogin#test_login_ok",
+  "historyId" : "b2caa862738ee1e42c94af13907b8081",
+  "time" : {
+    "start" : 1653626382735,
+    "stop" : 1653626387053,
+    "duration" : 4318
+  },
+  "description" : "这是一个登录测试用例",
+  "descriptionHtml" : "<p>这是一个登录测试用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1653626380423,
+      "stop" : 1653626382730,
+      "duration" : 2307
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "这是一个登录测试用例",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "开始登录",
+      "time" : {
+        "start" : 1653626382735,
+        "stop" : 1653626387053,
+        "duration" : 4318
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"e670380dd1d4be03502b47a65ce3e371\")>"
+      }, {
+        "name" : "caseinfo",
+        "value" : "{'name': '用户名密码信息', 'username': 'admin', 'password': 'admin'}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "8611eb807b8c2593",
+      "name" : "log",
+      "source" : "8611eb807b8c2593.txt",
+      "type" : "text/plain",
+      "size" : 93
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1653626419336,
+      "stop" : 1653626419421,
+      "duration" : 85
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "登录模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_new"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "tangzhongkaideMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "65977-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login_new"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseinfo",
+    "value" : "{'name': '用户名密码信息', 'username': 'admin', 'password': 'admin'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3b61706ebb6b355c.json",
+  "parameterValues" : [ "{'name': '用户名密码信息', 'username': 'admin', 'password': 'admin'}" ]
+}

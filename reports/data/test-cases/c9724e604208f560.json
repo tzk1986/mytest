@@ -1,0 +1,72 @@
+{
+  "uid" : "c9724e604208f560",
+  "name" : "test_skip",
+  "fullName" : "testcase.test_login.Testfour#test_skip",
+  "historyId" : "3e71ef5c937f3960ce4677a83defe67a",
+  "time" : {
+    "start" : 1652845175420,
+    "stop" : 1652845175420,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 跳过",
+  "statusTrace" : "('/Users/tangzhongkai/PycharmProjects/mytest/testcase/test_login.py', 120, 'Skipped: 跳过')",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试报告显示"
+  }, {
+    "name" : "story",
+    "value" : "跳过模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testfour"
+  }, {
+    "name" : "host",
+    "value" : "tangzhongkaideMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "56048-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Ignored tests",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c9724e604208f560.json",
+  "parameterValues" : [ ]
+}

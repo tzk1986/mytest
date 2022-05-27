@@ -1,0 +1,170 @@
+{
+  "uid" : "95bbe1a1b381708b",
+  "name" : "test_login_ok",
+  "fullName" : "testcase.test_login.TestLogin#test_login_ok",
+  "historyId" : "94e83eb3ec6d8dc38c720903eee0e2bb",
+  "time" : {
+    "start" : 1652679449164,
+    "stop" : 1652679450320,
+    "duration" : 1156
+  },
+  "description" : "这是一个登录测试用例",
+  "descriptionHtml" : "<p>这是一个登录测试用例</p>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: a bytes-like object is required, not 'NoneType'",
+  "statusTrace" : "self = <testcase.test_login.TestLogin object at 0x7f8a93abb760>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"9bac0f66c15617b84b521f1467b7e918\")>\n\n    @allure.story(\"登录模块\")\n    # 标注测试用例的重要级别\n    @allure.severity('blocker')\n    # 标记测试步骤\n    @allure.step(\"开始登录\")\n    @allure.description(\"这是一个登录测试用例\")  # 标记代码，优先取这个\n    def test_login_ok(self, driver):\n        \"\"\"登录页面\"\"\"\n        page = LoginPage(driver)\n        page.login()\n    \n        # print(page.get_new_url())\n        # print(page.get_except_results())\n        #\n        assert page.get_except_results() == '注销'\n        logger.info(\"登录测试成功\")\n>       allure.attach(  # 登录后截图，确认登录效果\n            page.jietu(),\n        )\n\ntest_login.py:48: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n../../../opt/anaconda3/envs/mytest/lib/python3.10/site-packages/allure_commons/_allure.py:179: in __call__\n    plugin_manager.hook.attach_data(body=body, name=name, attachment_type=attachment_type, extension=extension)\n../../../opt/anaconda3/envs/mytest/lib/python3.10/site-packages/pluggy/_hooks.py:265: in __call__\n    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)\n../../../opt/anaconda3/envs/mytest/lib/python3.10/site-packages/pluggy/_manager.py:80: in _hookexec\n    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)\n../../../opt/anaconda3/envs/mytest/lib/python3.10/site-packages/allure_pytest/listener.py:222: in attach_data\n    self.allure_logger.attach_data(uuid4(), body, name=name, attachment_type=attachment_type, extension=extension)\n../../../opt/anaconda3/envs/mytest/lib/python3.10/site-packages/allure_commons/reporter.py:119: in attach_data\n    plugin_manager.hook.report_attached_data(body=body, file_name=file_name)\n../../../opt/anaconda3/envs/mytest/lib/python3.10/site-packages/pluggy/_hooks.py:265: in __call__\n    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)\n../../../opt/anaconda3/envs/mytest/lib/python3.10/site-packages/pluggy/_manager.py:80: in _hookexec\n    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <allure_commons.logger.AllureFileLogger object at 0x7f8a93a081f0>\nbody = None\nfile_name = '01fdf9d6-536c-499b-b6e8-9d8b851c97b9-attachment.attach'\n\n    @hookimpl\n    def report_attached_data(self, body, file_name):\n        destination = os.path.join(self._report_dir, file_name)\n        with open(destination, 'wb') as attached_file:\n            if isinstance(body, text_type):\n                attached_file.write(body.encode('utf-8'))\n            else:\n>               attached_file.write(body)\nE               TypeError: a bytes-like object is required, not 'NoneType'\n\n../../../opt/anaconda3/envs/mytest/lib/python3.10/site-packages/allure_commons/logger.py:62: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1652679446174,
+      "stop" : 1652679449122,
+      "duration" : 2948
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "这是一个登录测试用例",
+    "status" : "broken",
+    "statusMessage" : "TypeError: a bytes-like object is required, not 'NoneType'",
+    "statusTrace" : "self = <testcase.test_login.TestLogin object at 0x7f8a93abb760>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"9bac0f66c15617b84b521f1467b7e918\")>\n\n    @allure.story(\"登录模块\")\n    # 标注测试用例的重要级别\n    @allure.severity('blocker')\n    # 标记测试步骤\n    @allure.step(\"开始登录\")\n    @allure.description(\"这是一个登录测试用例\")  # 标记代码，优先取这个\n    def test_login_ok(self, driver):\n        \"\"\"登录页面\"\"\"\n        page = LoginPage(driver)\n        page.login()\n    \n        # print(page.get_new_url())\n        # print(page.get_except_results())\n        #\n        assert page.get_except_results() == '注销'\n        logger.info(\"登录测试成功\")\n>       allure.attach(  # 登录后截图，确认登录效果\n            page.jietu(),\n        )\n\ntest_login.py:48: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n../../../opt/anaconda3/envs/mytest/lib/python3.10/site-packages/allure_commons/_allure.py:179: in __call__\n    plugin_manager.hook.attach_data(body=body, name=name, attachment_type=attachment_type, extension=extension)\n../../../opt/anaconda3/envs/mytest/lib/python3.10/site-packages/pluggy/_hooks.py:265: in __call__\n    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)\n../../../opt/anaconda3/envs/mytest/lib/python3.10/site-packages/pluggy/_manager.py:80: in _hookexec\n    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)\n../../../opt/anaconda3/envs/mytest/lib/python3.10/site-packages/allure_pytest/listener.py:222: in attach_data\n    self.allure_logger.attach_data(uuid4(), body, name=name, attachment_type=attachment_type, extension=extension)\n../../../opt/anaconda3/envs/mytest/lib/python3.10/site-packages/allure_commons/reporter.py:119: in attach_data\n    plugin_manager.hook.report_attached_data(body=body, file_name=file_name)\n../../../opt/anaconda3/envs/mytest/lib/python3.10/site-packages/pluggy/_hooks.py:265: in __call__\n    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)\n../../../opt/anaconda3/envs/mytest/lib/python3.10/site-packages/pluggy/_manager.py:80: in _hookexec\n    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <allure_commons.logger.AllureFileLogger object at 0x7f8a93a081f0>\nbody = None\nfile_name = '01fdf9d6-536c-499b-b6e8-9d8b851c97b9-attachment.attach'\n\n    @hookimpl\n    def report_attached_data(self, body, file_name):\n        destination = os.path.join(self._report_dir, file_name)\n        with open(destination, 'wb') as attached_file:\n            if isinstance(body, text_type):\n                attached_file.write(body.encode('utf-8'))\n            else:\n>               attached_file.write(body)\nE               TypeError: a bytes-like object is required, not 'NoneType'\n\n../../../opt/anaconda3/envs/mytest/lib/python3.10/site-packages/allure_commons/logger.py:62: TypeError",
+    "steps" : [ {
+      "name" : "开始登录",
+      "time" : {
+        "start" : 1652679449167,
+        "stop" : 1652679450313,
+        "duration" : 1146
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: a bytes-like object is required, not 'NoneType'\n",
+      "statusTrace" : "  File \"/Users/tangzhongkai/opt/anaconda3/envs/mytest/lib/python3.10/site-packages/allure_commons/_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"/Users/tangzhongkai/PycharmProjects/mytest/testcase/test_login.py\", line 48, in test_login_ok\n    allure.attach(  # 登录后截图，确认登录效果\n  File \"/Users/tangzhongkai/opt/anaconda3/envs/mytest/lib/python3.10/site-packages/allure_commons/_allure.py\", line 179, in __call__\n    plugin_manager.hook.attach_data(body=body, name=name, attachment_type=attachment_type, extension=extension)\n  File \"/Users/tangzhongkai/opt/anaconda3/envs/mytest/lib/python3.10/site-packages/pluggy/_hooks.py\", line 265, in __call__\n    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)\n  File \"/Users/tangzhongkai/opt/anaconda3/envs/mytest/lib/python3.10/site-packages/pluggy/_manager.py\", line 80, in _hookexec\n    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)\n  File \"/Users/tangzhongkai/opt/anaconda3/envs/mytest/lib/python3.10/site-packages/pluggy/_callers.py\", line 60, in _multicall\n    return outcome.get_result()\n  File \"/Users/tangzhongkai/opt/anaconda3/envs/mytest/lib/python3.10/site-packages/pluggy/_result.py\", line 60, in get_result\n    raise ex[1].with_traceback(ex[2])\n  File \"/Users/tangzhongkai/opt/anaconda3/envs/mytest/lib/python3.10/site-packages/pluggy/_callers.py\", line 39, in _multicall\n    res = hook_impl.function(*args)\n  File \"/Users/tangzhongkai/opt/anaconda3/envs/mytest/lib/python3.10/site-packages/allure_pytest/listener.py\", line 222, in attach_data\n    self.allure_logger.attach_data(uuid4(), body, name=name, attachment_type=attachment_type, extension=extension)\n  File \"/Users/tangzhongkai/opt/anaconda3/envs/mytest/lib/python3.10/site-packages/allure_commons/reporter.py\", line 119, in attach_data\n    plugin_manager.hook.report_attached_data(body=body, file_name=file_name)\n  File \"/Users/tangzhongkai/opt/anaconda3/envs/mytest/lib/python3.10/site-packages/pluggy/_hooks.py\", line 265, in __call__\n    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)\n  File \"/Users/tangzhongkai/opt/anaconda3/envs/mytest/lib/python3.10/site-packages/pluggy/_manager.py\", line 80, in _hookexec\n    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)\n  File \"/Users/tangzhongkai/opt/anaconda3/envs/mytest/lib/python3.10/site-packages/pluggy/_callers.py\", line 60, in _multicall\n    return outcome.get_result()\n  File \"/Users/tangzhongkai/opt/anaconda3/envs/mytest/lib/python3.10/site-packages/pluggy/_result.py\", line 60, in get_result\n    raise ex[1].with_traceback(ex[2])\n  File \"/Users/tangzhongkai/opt/anaconda3/envs/mytest/lib/python3.10/site-packages/pluggy/_callers.py\", line 39, in _multicall\n    res = hook_impl.function(*args)\n  File \"/Users/tangzhongkai/opt/anaconda3/envs/mytest/lib/python3.10/site-packages/allure_commons/logger.py\", line 62, in report_attached_data\n    attached_file.write(body)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a4fcabc8ff2cc1d1",
+        "name" : "ee19faf3-9e66-4d34-9e67-5d62cdc4bfa0-attachment.attach",
+        "source" : "a4fcabc8ff2cc1d1.attach",
+        "type" : "image/png",
+        "size" : 15268
+      }, {
+        "uid" : "d38de1ef41a4175e",
+        "name" : "4b2f6bd0-99a5-4891-91e4-987dc3ea0b4e-attachment.attach",
+        "source" : "d38de1ef41a4175e.attach",
+        "type" : "image/png",
+        "size" : 16056
+      }, {
+        "uid" : "8c7f7bfd99f0c99",
+        "name" : "b0be315c-9499-4079-971d-baac149f217e-attachment.attach",
+        "source" : "8c7f7bfd99f0c99.attach",
+        "type" : "image/png",
+        "size" : 16324
+      }, {
+        "uid" : "5400ab37a966a730",
+        "name" : "1a285b00-bd29-4fe7-93ba-6441fedc595d-attachment.attach",
+        "source" : "5400ab37a966a730.attach",
+        "type" : "image/png",
+        "size" : 82519
+      }, {
+        "uid" : "b52304352c8160e1",
+        "name" : "01fdf9d6-536c-499b-b6e8-9d8b851c97b9-attachment.attach",
+        "source" : "b52304352c8160e1.attach",
+        "type" : "application/octet-stream",
+        "size" : 0
+      } ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"9bac0f66c15617b84b521f1467b7e918\")>"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "ae666404731baf20",
+      "name" : "log",
+      "source" : "ae666404731baf20.txt",
+      "type" : "text/plain",
+      "size" : 908
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1652679450579,
+      "stop" : 1652679450667,
+      "duration" : 88
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录模块"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "登录以及增删改查测试项目"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "tangzhongkaideMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "76973-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "95bbe1a1b381708b.json",
+  "parameterValues" : [ ]
+}

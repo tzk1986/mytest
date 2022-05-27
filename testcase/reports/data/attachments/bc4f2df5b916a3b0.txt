@@ -1,0 +1,1 @@
+2022/05/27/12:48:17 [INFO] testcase.test_login_new (test_login_new.py:80): 登录测试成功

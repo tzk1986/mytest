@@ -1,0 +1,19 @@
+2022/05/16/16:29:45 [INFO] pageobject.add_project (add_project.py:54): 输入项目名：中文
+2022/05/16/16:29:45 [INFO] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="id_project_name"]
+2022/05/16/16:29:45 [INFO] pageobject.add_project (add_project.py:56): 选择类型
+2022/05/16/16:29:46 [INFO] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="id_project_type"]
+2022/05/16/16:29:46 [INFO] pageobject.add_project (add_project.py:58): 输入项目版本：第二版
+2022/05/16/16:29:46 [INFO] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="id_project_version"]
+2022/05/16/16:29:46 [INFO] pageobject.add_project (add_project.py:60): 保存
+2022/05/16/16:29:46 [INFO] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="project_form"]/div/div/input[1]
+2022/05/16/16:29:52 [INFO] testcase.test_login (test_login.py:88): 添加测试项目成功
+2022/05/16/16:29:52 [INFO] pageobject.add_project (add_project.py:67): 选择筛选项目
+2022/05/16/16:29:52 [INFO] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="changelist-filter"]/ul/li[3]/a
+2022/05/16/16:29:52 [INFO] pageobject.add_project (add_project.py:69): 输入项目名：中文
+2022/05/16/16:29:52 [INFO] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="searchbar"]
+2022/05/16/16:29:52 [INFO] pageobject.add_project (add_project.py:71): 点击搜索
+2022/05/16/16:29:52 [INFO] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="changelist-search"]/div/input[2]
+2022/05/16/16:29:52 [INFO] testcase.test_login (test_login.py:91): 搜索测试项目成功
+2022/05/16/16:29:52 [INFO] pageobject.add_project (add_project.py:77): 删除文本
+2022/05/16/16:30:03 [ERROR] base.BasePage (BasePage.py:47): 元素定位失败，元素：//*[@id="id_form-0-project_version"]Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="id_form-0-project_version"]"}
+  (Session info: chrome=101.0.4951.64)

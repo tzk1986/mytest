@@ -1,0 +1,290 @@
+{
+  "uid" : "1d69eb011dc9545f",
+  "name" : "增删改查测试项目",
+  "fullName" : "testcase.test_login.TestLogin#test_Project_ok",
+  "historyId" : "20643d3285690a03220500921fa2476f",
+  "time" : {
+    "start" : 1652694173052,
+    "stop" : 1652694188732,
+    "duration" : 15680
+  },
+  "description" : "\n        用例描述：测试项目的增删改查\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：测试项目的增删改查\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "login_driver",
+    "time" : {
+      "start" : 1652694169237,
+      "stop" : 1652694173046,
+      "duration" : 3809
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        用例描述：测试项目的增删改查\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "开始增删改查测试项目",
+      "time" : {
+        "start" : 1652694173053,
+        "stop" : 1652694188732,
+        "duration" : 15679
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Step: 添加测试项目",
+        "time" : {
+          "start" : 1652694173320,
+          "stop" : 1652694179580,
+          "duration" : 6260
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "551cb1b916f56af2",
+          "name" : "e0e1b8f6-f05a-43d9-bc11-93d1b0a8f831-attachment.attach",
+          "source" : "551cb1b916f56af2.attach",
+          "type" : "image/png",
+          "size" : 53157
+        }, {
+          "uid" : "80f627881f98b5bb",
+          "name" : "19259777-bf4d-4e84-bc1b-5389a68d26ac-attachment.attach",
+          "source" : "80f627881f98b5bb.attach",
+          "type" : "image/png",
+          "size" : 53605
+        }, {
+          "uid" : "52b0de232bd9aba",
+          "name" : "20b5a40e-17bb-479f-b0dc-425299b3c6ab-attachment.attach",
+          "source" : "52b0de232bd9aba.attach",
+          "type" : "image/png",
+          "size" : 53963
+        }, {
+          "uid" : "ee67aefc7aacd19",
+          "name" : "de757f26-271d-46dc-9210-fb93d3a8abab-attachment.attach",
+          "source" : "ee67aefc7aacd19.attach",
+          "type" : "image/png",
+          "size" : 54846
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 4,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Step: 搜索测试项目",
+        "time" : {
+          "start" : 1652694179580,
+          "stop" : 1652694180654,
+          "duration" : 1074
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "cffc388f2f99884",
+          "name" : "1f11640b-f148-41a0-93fa-9423db5ca5b4-attachment.attach",
+          "source" : "cffc388f2f99884.attach",
+          "type" : "image/png",
+          "size" : 75780
+        }, {
+          "uid" : "fb92f62eca6f1e89",
+          "name" : "cf4cda0e-3251-4580-bd31-b12f8157239e-attachment.attach",
+          "source" : "fb92f62eca6f1e89.attach",
+          "type" : "image/png",
+          "size" : 69792
+        }, {
+          "uid" : "557735e7f032764f",
+          "name" : "fb23d254-62e3-4407-b07f-52337cc838b0-attachment.attach",
+          "source" : "557735e7f032764f.attach",
+          "type" : "image/png",
+          "size" : 70249
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Step: 修改测试项目",
+        "time" : {
+          "start" : 1652694180655,
+          "stop" : 1652694184680,
+          "duration" : 4025
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4f431487ebed25a9",
+          "name" : "543fd4aa-884a-4518-9977-2802c2a4d695-attachment.attach",
+          "source" : "4f431487ebed25a9.attach",
+          "type" : "image/png",
+          "size" : 69462
+        }, {
+          "uid" : "101b4bf964125f1",
+          "name" : "60da7cc3-89db-4b7d-be46-fc43bd45af92-attachment.attach",
+          "source" : "101b4bf964125f1.attach",
+          "type" : "image/png",
+          "size" : 69506
+        }, {
+          "uid" : "e7e8b73c96e22d71",
+          "name" : "0d4935ee-daac-4b3c-8b77-6cb8c2b1070a-attachment.attach",
+          "source" : "e7e8b73c96e22d71.attach",
+          "type" : "image/png",
+          "size" : 68540
+        }, {
+          "uid" : "8f2d328100995ba6",
+          "name" : "dacb302b-b8b5-4f8a-b4f7-239b4ee71312-attachment.attach",
+          "source" : "8f2d328100995ba6.attach",
+          "type" : "image/png",
+          "size" : 69871
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 4,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Step: 删除测试项目",
+        "time" : {
+          "start" : 1652694184680,
+          "stop" : 1652694188730,
+          "duration" : 4050
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b110cde13f3f1f2f",
+          "name" : "5f2d3978-303c-4db1-b7b4-623152ca982e-attachment.attach",
+          "source" : "b110cde13f3f1f2f.attach",
+          "type" : "image/png",
+          "size" : 74451
+        }, {
+          "uid" : "b6a034f06abbad20",
+          "name" : "7498d6ca-5ba3-4626-9703-71250f072171-attachment.attach",
+          "source" : "b6a034f06abbad20.attach",
+          "type" : "image/png",
+          "size" : 74519
+        }, {
+          "uid" : "5f622d7d5a8aaf98",
+          "name" : "612dae17-acb4-4b6d-b604-042a614737eb-attachment.attach",
+          "source" : "5f622d7d5a8aaf98.attach",
+          "type" : "image/png",
+          "size" : 78088
+        }, {
+          "uid" : "60b6d6c89e8c992",
+          "name" : "7afbd6e6-0d93-48f5-9ed1-8082147bee05-attachment.attach",
+          "source" : "60b6d6c89e8c992.attach",
+          "type" : "image/png",
+          "size" : 63878
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 4,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login_driver",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"82b07f734f5818cc2e04b78f41d6192f\")>"
+      }, {
+        "name" : "caseinfo",
+        "value" : "{'name': '项目1', 'projectname': '123', 'num': '1', 'version': '第一版'}"
+      } ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 15,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "1ed1c3bb50e36275",
+      "name" : "log",
+      "source" : "1ed1c3bb50e36275.txt",
+      "type" : "text/plain",
+      "size" : 3490
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 16,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "login_driver::0",
+    "time" : {
+      "start" : 1652694204080,
+      "stop" : 1652694204319,
+      "duration" : 239
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "测试项目"
+  }, {
+    "name" : "feature",
+    "value" : "登录以及增删改查测试项目"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "tangzhongkaideMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "87635-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseinfo",
+    "value" : "{'name': '项目1', 'projectname': '123', 'num': '1', 'version': '第一版'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1d69eb011dc9545f.json",
+  "parameterValues" : [ "{'name': '项目1', 'projectname': '123', 'num': '1', 'version': '第一版'}" ]
+}

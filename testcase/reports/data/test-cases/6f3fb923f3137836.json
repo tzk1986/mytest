@@ -1,0 +1,215 @@
+{
+  "uid" : "6f3fb923f3137836",
+  "name" : "登录成功用例",
+  "fullName" : "testcase.test_login.TestLogin#test_login_ok",
+  "historyId" : "2c6f3816c2100e45f0a96515ebe41343",
+  "time" : {
+    "start" : 1652690808914,
+    "stop" : 1652690810249,
+    "duration" : 1335
+  },
+  "description" : "这是一个登录测试用例",
+  "descriptionHtml" : "<p>这是一个登录测试用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1652690804111,
+      "stop" : 1652690808881,
+      "duration" : 4770
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "这是一个登录测试用例",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "开始登录",
+      "time" : {
+        "start" : 1652690808917,
+        "stop" : 1652690810249,
+        "duration" : 1332
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Step: 输入用户名",
+        "time" : {
+          "start" : 1652690808928,
+          "stop" : 1652690809226,
+          "duration" : 298
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ffba03ee1fcacfb4",
+          "name" : "0a5dc966-0aca-4a05-9c4d-e8ad737baa08-attachment.attach",
+          "source" : "ffba03ee1fcacfb4.attach",
+          "type" : "image/png",
+          "size" : 15268
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Step: 输入密码",
+        "time" : {
+          "start" : 1652690809226,
+          "stop" : 1652690809407,
+          "duration" : 181
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d1377b59ac51fa27",
+          "name" : "cb693052-ede0-456c-890c-e918a7011610-attachment.attach",
+          "source" : "d1377b59ac51fa27.attach",
+          "type" : "image/png",
+          "size" : 16056
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Step: 点击登录按钮",
+        "time" : {
+          "start" : 1652690809407,
+          "stop" : 1652690809963,
+          "duration" : 556
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "edaf4fc431d3acda",
+          "name" : "eb4b5ed9-2de8-4c3e-8f62-9f78b14e3b1f-attachment.attach",
+          "source" : "edaf4fc431d3acda.attach",
+          "type" : "image/png",
+          "size" : 16324
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "d005b7aa8fffa34b",
+        "name" : "7d209503-ba9b-4073-9491-101e0e29a19c-attachment.attach",
+        "source" : "d005b7aa8fffa34b.attach",
+        "type" : "image/png",
+        "size" : 82607
+      }, {
+        "uid" : "28116adddcc4c1a8",
+        "name" : "fed03e91-02fe-45ff-8503-87b750e1d226-attachment.attach",
+        "source" : "28116adddcc4c1a8.attach",
+        "type" : "image/png",
+        "size" : 82607
+      } ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"e0b0e351bc0df88ab543481a0c783642\")>"
+      }, {
+        "name" : "caseinfo",
+        "value" : "{'name': '用户名密码信息', 'username': 'admin', 'password': 'admin'}"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "121dcc960c9bc3d7",
+      "name" : "log",
+      "source" : "121dcc960c9bc3d7.txt",
+      "type" : "text/plain",
+      "size" : 908
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1652690810262,
+      "stop" : 1652690810362,
+      "duration" : 100
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录以及增删改查测试项目"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "登录模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "tangzhongkaideMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "62597-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseinfo",
+    "value" : "{'name': '用户名密码信息', 'username': 'admin', 'password': 'admin'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6f3fb923f3137836.json",
+  "parameterValues" : [ "{'name': '用户名密码信息', 'username': 'admin', 'password': 'admin'}" ]
+}

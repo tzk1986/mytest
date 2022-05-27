@@ -1,0 +1,251 @@
+{
+  "uid" : "7311612874200ba6",
+  "name" : "test_login_ok",
+  "fullName" : "testcase.test_login.TestLogin#test_login_ok",
+  "historyId" : "94e83eb3ec6d8dc38c720903eee0e2bb",
+  "time" : {
+    "start" : 1652680205382,
+    "stop" : 1652680206625,
+    "duration" : 1243
+  },
+  "description" : "这是一个登录测试用例",
+  "descriptionHtml" : "<p>这是一个登录测试用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 10,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1652680202381,
+      "stop" : 1652680205370,
+      "duration" : 2989
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "这是一个登录测试用例",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "开始登录",
+      "time" : {
+        "start" : 1652680205385,
+        "stop" : 1652680206625,
+        "duration" : 1240
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "565c443a6ad2a9de",
+        "name" : "b4bbb93d-4cf6-46aa-8884-ac780c687708-attachment.attach",
+        "source" : "565c443a6ad2a9de.attach",
+        "type" : "image/png",
+        "size" : 15270
+      }, {
+        "uid" : "3d54de8bdc3997a9",
+        "name" : "9a992455-3d54-410c-96de-cf95d95b9068-attachment.attach",
+        "source" : "3d54de8bdc3997a9.attach",
+        "type" : "image/png",
+        "size" : 16056
+      }, {
+        "uid" : "15239057b2c99cc9",
+        "name" : "e60323ad-79b5-4ddb-8594-c19445960780-attachment.attach",
+        "source" : "15239057b2c99cc9.attach",
+        "type" : "image/png",
+        "size" : 16324
+      }, {
+        "uid" : "1bdd086a1b1d3373",
+        "name" : "b8f1db9a-9152-4166-a3b6-a82adb44ad67-attachment.attach",
+        "source" : "1bdd086a1b1d3373.attach",
+        "type" : "image/png",
+        "size" : 82519
+      }, {
+        "uid" : "ef8e5c4e615faafd",
+        "name" : "ec120638-a22c-4243-9010-e4254fe379fe-attachment.attach",
+        "source" : "ef8e5c4e615faafd.attach",
+        "type" : "image/png",
+        "size" : 82519
+      } ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"97b948c27c616b025535e62963589ca4\")>"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c6cda98411204ded",
+      "name" : "log",
+      "source" : "c6cda98411204ded.txt",
+      "type" : "text/plain",
+      "size" : 908
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1652680206632,
+      "stop" : 1652680206730,
+      "duration" : 98
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录模块"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "登录以及增删改查测试项目"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "tangzhongkaideMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "82634-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "ceffc759cccd95c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652679940165,
+        "stop" : 1652679942584,
+        "duration" : 2419
+      }
+    }, {
+      "uid" : "e24f89df77349a50",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'TestLogin' object has no attribute 'driver'",
+      "time" : {
+        "start" : 1652679649035,
+        "stop" : 1652679650167,
+        "duration" : 1132
+      }
+    }, {
+      "uid" : "f66e2d060e3dbb02",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'TestLogin' object has no attribute 'driver'",
+      "time" : {
+        "start" : 1652679492172,
+        "stop" : 1652679493223,
+        "duration" : 1051
+      }
+    }, {
+      "uid" : "95bbe1a1b381708b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: a bytes-like object is required, not 'NoneType'",
+      "time" : {
+        "start" : 1652679449164,
+        "stop" : 1652679450320,
+        "duration" : 1156
+      }
+    }, {
+      "uid" : "959821de261474ea",
+      "status" : "broken",
+      "statusDetails" : "TypeError: a bytes-like object is required, not 'NoneType'",
+      "time" : {
+        "start" : 1652679271853,
+        "stop" : 1652679272003,
+        "duration" : 150
+      }
+    }, {
+      "uid" : "9789a7d763e2a60",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'get_screenshot_as_png'",
+      "time" : {
+        "start" : 1652679160474,
+        "stop" : 1652679161603,
+        "duration" : 1129
+      }
+    }, {
+      "uid" : "15a59ec2b5f410a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652672933686,
+        "stop" : 1652672934286,
+        "duration" : 600
+      }
+    }, {
+      "uid" : "a52faaba089b1944",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652672821195,
+        "stop" : 1652672822047,
+        "duration" : 852
+      }
+    }, {
+      "uid" : "d72f885182dc2eb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652672723176,
+        "stop" : 1652672723909,
+        "duration" : 733
+      }
+    }, {
+      "uid" : "75822604b3eadf1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652502200957,
+        "stop" : 1652502201567,
+        "duration" : 610
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7311612874200ba6.json",
+  "parameterValues" : [ ]
+}

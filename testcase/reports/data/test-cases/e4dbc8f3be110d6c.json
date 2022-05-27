@@ -1,0 +1,383 @@
+{
+  "uid" : "e4dbc8f3be110d6c",
+  "name" : "登录成功用例",
+  "fullName" : "testcase.test_login.TestLogin#test_login_ok",
+  "historyId" : "2c6f3816c2100e45f0a96515ebe41343",
+  "time" : {
+    "start" : 1653625661341,
+    "stop" : 1653625662435,
+    "duration" : 1094
+  },
+  "description" : "这是一个登录测试用例",
+  "descriptionHtml" : "<p>这是一个登录测试用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 20,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1653625658400,
+      "stop" : 1653625661337,
+      "duration" : 2937
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "这是一个登录测试用例",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "开始登录",
+      "time" : {
+        "start" : 1653625661342,
+        "stop" : 1653625662435,
+        "duration" : 1093
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Step: 输入用户名",
+        "time" : {
+          "start" : 1653625661344,
+          "stop" : 1653625661591,
+          "duration" : 247
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1b5714a0456bb871",
+          "name" : "b9133772-d58f-4960-b896-77c27bbf661b-attachment.attach",
+          "source" : "1b5714a0456bb871.attach",
+          "type" : "image/png",
+          "size" : 15231
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Step: 输入密码",
+        "time" : {
+          "start" : 1653625661591,
+          "stop" : 1653625661754,
+          "duration" : 163
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7254ad849324746f",
+          "name" : "6ffa3074-37ee-4388-86b8-ba190bc806ee-attachment.attach",
+          "source" : "7254ad849324746f.attach",
+          "type" : "image/png",
+          "size" : 16056
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Step: 点击登录按钮",
+        "time" : {
+          "start" : 1653625661754,
+          "stop" : 1653625662167,
+          "duration" : 413
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f85148ef5049ec68",
+          "name" : "91f6073f-777b-4b42-900f-645e21ddd834-attachment.attach",
+          "source" : "f85148ef5049ec68.attach",
+          "type" : "image/png",
+          "size" : 16324
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "a27221444b48680e",
+        "name" : "b122637a-d095-4e4f-8b25-22f56d27c7a2-attachment.attach",
+        "source" : "a27221444b48680e.attach",
+        "type" : "image/png",
+        "size" : 82925
+      }, {
+        "uid" : "86db02c769bd531d",
+        "name" : "293ed542-d894-49f3-8f08-f5f73cb140b1-attachment.attach",
+        "source" : "86db02c769bd531d.attach",
+        "type" : "image/png",
+        "size" : 82925
+      } ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"3609a97decf51bb723918827953abfc6\")>"
+      }, {
+        "name" : "caseinfo",
+        "value" : "{'name': '用户名密码信息', 'username': 'admin', 'password': 'admin'}"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4a0cabc2fdb21aec",
+      "name" : "log",
+      "source" : "4a0cabc2fdb21aec.txt",
+      "type" : "text/plain",
+      "size" : 908
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1653625662437,
+      "stop" : 1653625662514,
+      "duration" : 77
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录模块"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "登录以及增删改查测试项目"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "tangzhongkaideMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "60489-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseinfo",
+    "value" : "{'name': '用户名密码信息', 'username': 'admin', 'password': 'admin'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "82cc810a14bf43e5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 100\nCurrent browser version is 102.0.5005.61 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\nStacktrace:\n0   chromedriver                        0x00000001007cf3d9 chromedriver + 5104601\n1   chromedriver                        0x000000010075fbf3 chromedriver + 4647923\n2   chromedriver                        0x0000000100350b48 chromedriver + 392008\n3   chromedriver                        0x0000000100376e1e chromedriver + 548382\n4   chromedriver                        0x000000010037290a chromedriver + 530698\n5   chromedriver                        0x000000010036ef86 chromedriver + 515974\n6   chromedriver                        0x00000001003a93a0 chromedriver + 754592\n7   chromedriver                        0x00000001003a35b3 chromedriver + 730547\n8   chromedriver                        0x0000000100379139 chromedriver + 557369\n9   chromedriver                        0x000000010037a165 chromedriver + 561509\n10  chromedriver                        0x000000010078e39d chromedriver + 4838301\n11  chromedriver                        0x00000001007a6cde chromedriver + 4938974\n12  chromedriver                        0x00000001007abb5e chromedriver + 4959070\n13  chromedriver                        0x00000001007a794a chromedriver + 4942154\n14  chromedriver                        0x000000010078333c chromedriver + 4793148\n15  chromedriver                        0x00000001007c13b8 chromedriver + 5047224\n16  chromedriver                        0x00000001007c153f chromedriver + 5047615\n17  chromedriver                        0x00000001007d6705 chromedriver + 5134085\n18  libsystem_pthread.dylib             0x00007ff8139dc4e1 _pthread_start + 125\n19  libsystem_pthread.dylib             0x00007ff8139d7f6b thread_start + 15",
+      "time" : {
+        "start" : 1653625264308,
+        "stop" : 1653625264308,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "df180b444ccb69db",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 100\nCurrent browser version is 102.0.5005.61 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\nStacktrace:\n0   chromedriver                        0x000000010b7923d9 chromedriver + 5104601\n1   chromedriver                        0x000000010b722bf3 chromedriver + 4647923\n2   chromedriver                        0x000000010b313b48 chromedriver + 392008\n3   chromedriver                        0x000000010b339e1e chromedriver + 548382\n4   chromedriver                        0x000000010b33590a chromedriver + 530698\n5   chromedriver                        0x000000010b331f86 chromedriver + 515974\n6   chromedriver                        0x000000010b36c3a0 chromedriver + 754592\n7   chromedriver                        0x000000010b3665b3 chromedriver + 730547\n8   chromedriver                        0x000000010b33c139 chromedriver + 557369\n9   chromedriver                        0x000000010b33d165 chromedriver + 561509\n10  chromedriver                        0x000000010b75139d chromedriver + 4838301\n11  chromedriver                        0x000000010b769cde chromedriver + 4938974\n12  chromedriver                        0x000000010b76eb5e chromedriver + 4959070\n13  chromedriver                        0x000000010b76a94a chromedriver + 4942154\n14  chromedriver                        0x000000010b74633c chromedriver + 4793148\n15  chromedriver                        0x000000010b7843b8 chromedriver + 5047224\n16  chromedriver                        0x000000010b78453f chromedriver + 5047615\n17  chromedriver                        0x000000010b799705 chromedriver + 5134085\n18  libsystem_pthread.dylib             0x00007ff8139dc4e1 _pthread_start + 125\n19  libsystem_pthread.dylib             0x00007ff8139d7f6b thread_start + 15",
+      "time" : {
+        "start" : 1653625185302,
+        "stop" : 1653625185302,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6cb4e041cbe4e303",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 100\nCurrent browser version is 102.0.5005.61 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\nStacktrace:\n0   chromedriver                        0x000000010dd8e3d9 chromedriver + 5104601\n1   chromedriver                        0x000000010dd1ebf3 chromedriver + 4647923\n2   chromedriver                        0x000000010d90fb48 chromedriver + 392008\n3   chromedriver                        0x000000010d935e1e chromedriver + 548382\n4   chromedriver                        0x000000010d93190a chromedriver + 530698\n5   chromedriver                        0x000000010d92df86 chromedriver + 515974\n6   chromedriver                        0x000000010d9683a0 chromedriver + 754592\n7   chromedriver                        0x000000010d9625b3 chromedriver + 730547\n8   chromedriver                        0x000000010d938139 chromedriver + 557369\n9   chromedriver                        0x000000010d939165 chromedriver + 561509\n10  chromedriver                        0x000000010dd4d39d chromedriver + 4838301\n11  chromedriver                        0x000000010dd65cde chromedriver + 4938974\n12  chromedriver                        0x000000010dd6ab5e chromedriver + 4959070\n13  chromedriver                        0x000000010dd6694a chromedriver + 4942154\n14  chromedriver                        0x000000010dd4233c chromedriver + 4793148\n15  chromedriver                        0x000000010dd803b8 chromedriver + 5047224\n16  chromedriver                        0x000000010dd8053f chromedriver + 5047615\n17  chromedriver                        0x000000010dd95705 chromedriver + 5134085\n18  libsystem_pthread.dylib             0x00007ff8139dc4e1 _pthread_start + 125\n19  libsystem_pthread.dylib             0x00007ff8139d7f6b thread_start + 15",
+      "time" : {
+        "start" : 1653625059603,
+        "stop" : 1653625059604,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "10cb68182216e120",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652844266591,
+        "stop" : 1652844267975,
+        "duration" : 1384
+      }
+    }, {
+      "uid" : "c95a9a0c5cf83def",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652697629400,
+        "stop" : 1652697630724,
+        "duration" : 1324
+      }
+    }, {
+      "uid" : "6387be134511a301",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: module 'allure' has no attribute 'environment'",
+      "time" : {
+        "start" : 1652695019458,
+        "stop" : 1652695020980,
+        "duration" : 1522
+      }
+    }, {
+      "uid" : "305d099b4943284",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652694353494,
+        "stop" : 1652694354928,
+        "duration" : 1434
+      }
+    }, {
+      "uid" : "20d42a025f056f3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652694167794,
+        "stop" : 1652694169234,
+        "duration" : 1440
+      }
+    }, {
+      "uid" : "77c121059bcf88aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652692916144,
+        "stop" : 1652692917374,
+        "duration" : 1230
+      }
+    }, {
+      "uid" : "13e9e87c6e397655",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652692751963,
+        "stop" : 1652692753366,
+        "duration" : 1403
+      }
+    }, {
+      "uid" : "1a65cb38eb9ef517",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652691743643,
+        "stop" : 1652691745157,
+        "duration" : 1514
+      }
+    }, {
+      "uid" : "b0f9931e1b49e50d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652691343195,
+        "stop" : 1652691345296,
+        "duration" : 2101
+      }
+    }, {
+      "uid" : "6f3fb923f3137836",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652690808914,
+        "stop" : 1652690810249,
+        "duration" : 1335
+      }
+    }, {
+      "uid" : "3735a0d408fd7d87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652690237984,
+        "stop" : 1652690239230,
+        "duration" : 1246
+      }
+    }, {
+      "uid" : "60c1988f9b94df53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652689159215,
+        "stop" : 1652689160417,
+        "duration" : 1202
+      }
+    }, {
+      "uid" : "97f638ba2536b90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652689066608,
+        "stop" : 1652689066613,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "17487c9128bd0843",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652688939665,
+        "stop" : 1652688939667,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "8455d43e6cd11f63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652688895657,
+        "stop" : 1652688895659,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "bc81cf4c88baa985",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'page' is not defined",
+      "time" : {
+        "start" : 1652688722892,
+        "stop" : 1652688722898,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "2f03da98f582e368",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'element' referenced before assignment",
+      "time" : {
+        "start" : 1652688662405,
+        "stop" : 1652688674101,
+        "duration" : 11696
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e4dbc8f3be110d6c.json",
+  "parameterValues" : [ "{'name': '用户名密码信息', 'username': 'admin', 'password': 'admin'}" ]
+}

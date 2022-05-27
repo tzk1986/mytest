@@ -1,0 +1,10 @@
+[ {
+  "values" : [ "Chrome" ],
+  "name" : "Browser"
+}, {
+  "values" : [ "86.0.4240" ],
+  "name" : "Browser.Version"
+}, {
+  "values" : [ "QA" ],
+  "name" : "Environment"
+} ]

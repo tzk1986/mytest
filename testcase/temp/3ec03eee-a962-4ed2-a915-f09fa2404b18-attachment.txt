@@ -1,0 +1,4 @@
+INFO     base.BasePage:BasePage.py:41 元素定位成功，元素：//*[@id="id_username"]
+INFO     base.BasePage:BasePage.py:41 元素定位成功，元素：//*[@id="id_password"]
+INFO     base.BasePage:BasePage.py:41 元素定位成功，元素：//*[@id="login-form"]/div[3]/input
+INFO     base.BasePage:BasePage.py:41 元素定位成功，元素：//*[@id="user-tools"]/a[3]

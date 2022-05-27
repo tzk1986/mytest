@@ -1,0 +1,17 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Wed May 18 11:25:02 CST 2022","Wed May 18 11:25:02 CST 2022","0","testcase","test_login","Testfour","","","test_failure",""
+"passed","Fri May 27 12:48:34 CST 2022","Fri May 27 12:48:49 CST 2022","14744","testcase","test_login_new","TestLogin","","","增删改查测试项目",""
+"broken","Wed May 18 11:25:02 CST 2022","Wed May 18 11:25:02 CST 2022","0","testcase","test_login","Testfour","","","test_broken",""
+"passed","Fri May 27 12:48:12 CST 2022","Fri May 27 12:48:17 CST 2022","4369","testcase","test_login_new","TestLogin","","","登录成功用例","这是一个登录测试用例"
+"passed","Wed May 18 11:25:02 CST 2022","Wed May 18 11:25:02 CST 2022","0","testcase","test_login","Testfour","","","test_success",""
+"passed","Wed May 18 11:24:32 CST 2022","Wed May 18 11:24:47 CST 2022","15283","testcase","test_login","TestLogin","","","增删改查测试项目","
+        用例描述：测试项目的增删改查
+        "
+"skipped","Wed May 18 11:25:02 CST 2022","Wed May 18 11:25:02 CST 2022","0","testcase","test_login","Testfour","","","test_skip",""
+"passed","Wed May 18 11:24:47 CST 2022","Wed May 18 11:25:02 CST 2022","14450","testcase","test_login","TestLogin","","","增删改查测试项目","
+        用例描述：测试项目的增删改查
+        "
+"passed","Fri May 27 12:27:41 CST 2022","Fri May 27 12:27:42 CST 2022","1094","testcase","test_login","TestLogin","","","登录成功用例","这是一个登录测试用例"
+"passed","Mon May 16 13:50:05 CST 2022","Mon May 16 13:50:06 CST 2022","1243","testcase","test_login","TestLogin","","","test_login_ok","这是一个登录测试用例"
+"passed","Fri May 27 12:48:19 CST 2022","Fri May 27 12:48:34 CST 2022","14955","testcase","test_login_new","TestLogin","","","增删改查测试项目",""
+"failed","Wed May 18 11:25:02 CST 2022","Wed May 18 11:25:02 CST 2022","0","testcase","test_login","TestLogin","","","test_three",""

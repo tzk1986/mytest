@@ -1,0 +1,241 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录以及增删改查测试项目",
+    "children" : [ {
+      "name" : "登录模块",
+      "children" : [ {
+        "name" : "test_login_ok",
+        "uid" : "7311612874200ba6",
+        "parentUid" : "b84e2106e4ac93b849e38958955bfa18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652680205382,
+          "stop" : 1652680206625,
+          "duration" : 1243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 10,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录成功用例",
+        "uid" : "e4dbc8f3be110d6c",
+        "parentUid" : "b84e2106e4ac93b849e38958955bfa18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653625661341,
+          "stop" : 1653625662435,
+          "duration" : 1094
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 20,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'name': '用户名密码信息', 'username': 'admin', 'password': 'admin'}" ]
+      } ],
+      "uid" : "b84e2106e4ac93b849e38958955bfa18"
+    } ],
+    "uid" : "1e82107eaf55763196580a21da8e00a6"
+  }, {
+    "name" : "演示下allure支持的测试",
+    "children" : [ {
+      "name" : "登录以及增删改查测试项目",
+      "children" : [ {
+        "name" : "测试项目",
+        "children" : [ {
+          "name" : "增删改查测试项目",
+          "uid" : "cf3a984d73c7547a",
+          "parentUid" : "129dc88b20957d6bd378ece8bc265e35",
+          "status" : "passed",
+          "time" : {
+            "start" : 1652844272680,
+            "stop" : 1652844287963,
+            "duration" : 15283
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 7,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'name': '项目1', 'projectname': '123', 'num': '1', 'version': '第一版'}" ]
+        }, {
+          "name" : "增删改查测试项目",
+          "uid" : "6f9603c931cce8bd",
+          "parentUid" : "129dc88b20957d6bd378ece8bc265e35",
+          "status" : "passed",
+          "time" : {
+            "start" : 1652844287969,
+            "stop" : 1652844302419,
+            "duration" : 14450
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 7,
+          "retriesStatusChange" : true,
+          "parameters" : [ "{'name': '项目2', 'projectname': '中文', 'num': '2', 'version': '第二版'}" ]
+        } ],
+        "uid" : "129dc88b20957d6bd378ece8bc265e35"
+      }, {
+        "name" : "test_three",
+        "uid" : "e5f0782be2622be7",
+        "parentUid" : "5c254248237d35e46d92320aeb3fa064",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652844302423,
+          "stop" : 1652844302423,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5c254248237d35e46d92320aeb3fa064"
+    } ],
+    "uid" : "19e5c192aee6c713ff9905d33fa63cb9"
+  }, {
+    "name" : "测试报告显示",
+    "children" : [ {
+      "name" : "test_success",
+      "uid" : "fee3897f2a67e38d",
+      "parentUid" : "14cc46bdac82f2a5d0051cef3ed209b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652844302491,
+        "stop" : 1652844302491,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_failure",
+      "uid" : "f1fae53f4a65225",
+      "parentUid" : "14cc46bdac82f2a5d0051cef3ed209b1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1652844302492,
+        "stop" : 1652844302492,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_skip",
+      "uid" : "4ecd5032e63e0ca0",
+      "parentUid" : "14cc46bdac82f2a5d0051cef3ed209b1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1652844302497,
+        "stop" : 1652844302497,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_broken",
+      "uid" : "5ffe0cf8c6fc19c0",
+      "parentUid" : "14cc46bdac82f2a5d0051cef3ed209b1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1652844302500,
+        "stop" : 1652844302500,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "14cc46bdac82f2a5d0051cef3ed209b1"
+  }, {
+    "name" : "登录模块",
+    "children" : [ {
+      "name" : "登录成功用例",
+      "uid" : "46858e229a70aa48",
+      "parentUid" : "6958045a481574bf02bb11ef07a7047b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653626892994,
+        "stop" : 1653626897363,
+        "duration" : 4369
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : true,
+      "parameters" : [ "{'name': '用户名密码信息', 'username': 'admin', 'password': 'admin'}" ]
+    } ],
+    "uid" : "6958045a481574bf02bb11ef07a7047b"
+  }, {
+    "name" : "测试项目",
+    "children" : [ {
+      "name" : "增删改查测试项目",
+      "uid" : "cda33b5272333d64",
+      "parentUid" : "ea4a8546ea5038363e8dc9c20218d1c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653626899741,
+        "stop" : 1653626914696,
+        "duration" : 14955
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{'name': '项目1', 'projectname': '123', 'num': '1', 'version': '第一版'}" ]
+    }, {
+      "name" : "增删改查测试项目",
+      "uid" : "cf0a4807d8af7297",
+      "parentUid" : "ea4a8546ea5038363e8dc9c20218d1c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653626914700,
+        "stop" : 1653626929444,
+        "duration" : 14744
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{'name': '项目2', 'projectname': '中文', 'num': '2', 'version': '第二版'}" ]
+    } ],
+    "uid" : "ea4a8546ea5038363e8dc9c20218d1c6"
+  } ]
+}

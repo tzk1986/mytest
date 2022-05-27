@@ -1,0 +1,9 @@
+2022/05/16/16:11:02 [INFO] pageobject.login_page (login_page.py:24): 输入用户名：admin
+2022/05/16/16:11:02 [INFO] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="id_username"]
+2022/05/16/16:11:02 [INFO] pageobject.login_page (login_page.py:27): 输入密码：amdin
+2022/05/16/16:11:02 [INFO] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="id_password"]
+2022/05/16/16:11:03 [INFO] pageobject.login_page (login_page.py:30): 点击登录按钮
+2022/05/16/16:11:03 [INFO] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="login-form"]/div[3]/input
+2022/05/16/16:11:03 [INFO] pageobject.login_page (login_page.py:38): 获取注销按钮
+2022/05/16/16:11:14 [ERROR] base.BasePage (BasePage.py:47): 元素定位失败，元素：//*[@id="user-tools"]/a[3]Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="user-tools"]/a[3]"}
+  (Session info: chrome=101.0.4951.64)

@@ -1,0 +1,145 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase.test_login",
+    "children" : [ {
+      "name" : "登录成功用例",
+      "uid" : "ab44993b3a29d67b",
+      "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652845141245,
+        "stop" : 1652845142889,
+        "duration" : 1644
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{'name': '用户名密码信息', 'username': 'admin', 'password': 'admin'}" ]
+    }, {
+      "name" : "增删改查测试项目",
+      "uid" : "ae7868b7932741b0",
+      "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652845146117,
+        "stop" : 1652845160822,
+        "duration" : 14705
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{'name': '项目1', 'projectname': '123', 'num': '1', 'version': '第一版'}" ]
+    }, {
+      "name" : "增删改查测试项目",
+      "uid" : "aa1508e059c7f8d0",
+      "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652845160830,
+        "stop" : 1652845175321,
+        "duration" : 14491
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{'name': '项目2', 'projectname': '中文', 'num': '2', 'version': '第二版'}" ]
+    }, {
+      "name" : "失败测试",
+      "uid" : "5a75ff413f6d9eaf",
+      "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+      "status" : "failed",
+      "time" : {
+        "start" : 1652845175324,
+        "stop" : 1652845175324,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_success",
+      "uid" : "d631965135a11f05",
+      "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652845175414,
+        "stop" : 1652845175414,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_failure",
+      "uid" : "1ea3869a929f928b",
+      "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+      "status" : "failed",
+      "time" : {
+        "start" : 1652845175415,
+        "stop" : 1652845175415,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_skip",
+      "uid" : "c9724e604208f560",
+      "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1652845175420,
+        "stop" : 1652845175420,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_broken",
+      "uid" : "3a6b42e58c07192f",
+      "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+      "status" : "broken",
+      "time" : {
+        "start" : 1652845175424,
+        "stop" : 1652845175424,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcase.test_login"
+  } ]
+}

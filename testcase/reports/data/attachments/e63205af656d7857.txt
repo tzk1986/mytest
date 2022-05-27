@@ -1,0 +1,14 @@
+2022/05/27/12:48:19 [INFO] testcase.test_login_new (test_login_new.py:95): 输入项目名：123
+2022/05/27/12:48:20 [INFO] testcase.test_login_new (test_login_new.py:97): 选择类型
+2022/05/27/12:48:21 [INFO] testcase.test_login_new (test_login_new.py:99): 输入项目版本：第一版
+2022/05/27/12:48:22 [INFO] testcase.test_login_new (test_login_new.py:101): 保存
+2022/05/27/12:48:24 [INFO] testcase.test_login_new (test_login_new.py:105): 选择筛选项目
+2022/05/27/12:48:25 [INFO] testcase.test_login_new (test_login_new.py:107): 输入项目名：123
+2022/05/27/12:48:26 [INFO] testcase.test_login_new (test_login_new.py:109): 点击搜索
+2022/05/27/12:48:27 [INFO] testcase.test_login_new (test_login_new.py:113): 删除文本
+2022/05/27/12:48:28 [INFO] testcase.test_login_new (test_login_new.py:115): 输入文本第一版
+2022/05/27/12:48:29 [INFO] testcase.test_login_new (test_login_new.py:117): 点击保存
+2022/05/27/12:48:30 [INFO] testcase.test_login_new (test_login_new.py:121): 选择第一行
+2022/05/27/12:48:31 [INFO] testcase.test_login_new (test_login_new.py:123): 选择行为delete_selected
+2022/05/27/12:48:32 [INFO] testcase.test_login_new (test_login_new.py:125): 点击执行
+2022/05/27/12:48:33 [INFO] testcase.test_login_new (test_login_new.py:127): 二次确认

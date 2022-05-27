@@ -1,0 +1,19 @@
+[ {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:63342/mytest/reports/#",
+  "reportName" : "唐仲凯的Allure Report",
+  "data" : {
+    "run" : 8,
+    "retry" : 0
+  }
+}, {
+  "data" : {
+    "run" : 0,
+    "retry" : 0
+  }
+}, {
+  "data" : {
+    "run" : 3,
+    "retry" : 0
+  }
+} ]

@@ -1,0 +1,9 @@
+2022/05/18/11:24:26 [INFO] pageobject.login_page (login_page.py:24): 输入用户名：admin
+2022/05/18/11:24:26 [INFO] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="id_username"]
+2022/05/18/11:24:26 [INFO] pageobject.login_page (login_page.py:27): 输入密码：admin
+2022/05/18/11:24:27 [INFO] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="id_password"]
+2022/05/18/11:24:27 [INFO] pageobject.login_page (login_page.py:30): 点击登录按钮
+2022/05/18/11:24:27 [INFO] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="login-form"]/div[3]/input
+2022/05/18/11:24:27 [INFO] pageobject.login_page (login_page.py:38): 获取注销按钮
+2022/05/18/11:24:27 [INFO] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="user-tools"]/a[3]
+2022/05/18/11:24:27 [INFO] testcase.test_login (test_login.py:69): 登录测试成功

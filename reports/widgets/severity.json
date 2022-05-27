@@ -1,0 +1,81 @@
+[ {
+  "uid" : "5a75ff413f6d9eaf",
+  "name" : "失败测试",
+  "time" : {
+    "start" : 1652845175324,
+    "stop" : 1652845175324,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d631965135a11f05",
+  "name" : "test_success",
+  "time" : {
+    "start" : 1652845175414,
+    "stop" : 1652845175414,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9724e604208f560",
+  "name" : "test_skip",
+  "time" : {
+    "start" : 1652845175420,
+    "stop" : 1652845175420,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ae7868b7932741b0",
+  "name" : "增删改查测试项目",
+  "time" : {
+    "start" : 1652845146117,
+    "stop" : 1652845160822,
+    "duration" : 14705
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1ea3869a929f928b",
+  "name" : "test_failure",
+  "time" : {
+    "start" : 1652845175415,
+    "stop" : 1652845175415,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab44993b3a29d67b",
+  "name" : "登录成功用例",
+  "time" : {
+    "start" : 1652845141245,
+    "stop" : 1652845142889,
+    "duration" : 1644
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "3a6b42e58c07192f",
+  "name" : "test_broken",
+  "time" : {
+    "start" : 1652845175424,
+    "stop" : 1652845175424,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "aa1508e059c7f8d0",
+  "name" : "增删改查测试项目",
+  "time" : {
+    "start" : 1652845160830,
+    "stop" : 1652845175321,
+    "duration" : 14491
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

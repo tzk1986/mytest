@@ -1,0 +1,121 @@
+[ {
+  "uid" : "f1fae53f4a65225",
+  "name" : "test_failure",
+  "time" : {
+    "start" : 1652844302492,
+    "stop" : 1652844302492,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf0a4807d8af7297",
+  "name" : "增删改查测试项目",
+  "time" : {
+    "start" : 1653626914700,
+    "stop" : 1653626929444,
+    "duration" : 14744
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5ffe0cf8c6fc19c0",
+  "name" : "test_broken",
+  "time" : {
+    "start" : 1652844302500,
+    "stop" : 1652844302500,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "46858e229a70aa48",
+  "name" : "登录成功用例",
+  "time" : {
+    "start" : 1653626892994,
+    "stop" : 1653626897363,
+    "duration" : 4369
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "fee3897f2a67e38d",
+  "name" : "test_success",
+  "time" : {
+    "start" : 1652844302491,
+    "stop" : 1652844302491,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf3a984d73c7547a",
+  "name" : "增删改查测试项目",
+  "time" : {
+    "start" : 1652844272680,
+    "stop" : 1652844287963,
+    "duration" : 15283
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "4ecd5032e63e0ca0",
+  "name" : "test_skip",
+  "time" : {
+    "start" : 1652844302497,
+    "stop" : 1652844302497,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "6f9603c931cce8bd",
+  "name" : "增删改查测试项目",
+  "time" : {
+    "start" : 1652844287969,
+    "stop" : 1652844302419,
+    "duration" : 14450
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "e4dbc8f3be110d6c",
+  "name" : "登录成功用例",
+  "time" : {
+    "start" : 1653625661341,
+    "stop" : 1653625662435,
+    "duration" : 1094
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "7311612874200ba6",
+  "name" : "test_login_ok",
+  "time" : {
+    "start" : 1652680205382,
+    "stop" : 1652680206625,
+    "duration" : 1243
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "cda33b5272333d64",
+  "name" : "增删改查测试项目",
+  "time" : {
+    "start" : 1653626899741,
+    "stop" : 1653626914696,
+    "duration" : 14955
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "e5f0782be2622be7",
+  "name" : "test_three",
+  "time" : {
+    "start" : 1652844302423,
+    "stop" : 1652844302423,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

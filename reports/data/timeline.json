@@ -1,0 +1,149 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "tangzhongkaideMacBook-Pro.local",
+    "children" : [ {
+      "name" : "56048-MainThread",
+      "children" : [ {
+        "name" : "test_failure",
+        "uid" : "1ea3869a929f928b",
+        "parentUid" : "c8c48256d258b8f2fe645ab01c368eff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652845175415,
+          "stop" : 1652845175415,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "增删改查测试项目",
+        "uid" : "aa1508e059c7f8d0",
+        "parentUid" : "c8c48256d258b8f2fe645ab01c368eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652845160830,
+          "stop" : 1652845175321,
+          "duration" : 14491
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '项目2', 'projectname': '中文', 'num': '2', 'version': '第二版'}" ]
+      }, {
+        "name" : "test_broken",
+        "uid" : "3a6b42e58c07192f",
+        "parentUid" : "c8c48256d258b8f2fe645ab01c368eff",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652845175424,
+          "stop" : 1652845175424,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录成功用例",
+        "uid" : "ab44993b3a29d67b",
+        "parentUid" : "c8c48256d258b8f2fe645ab01c368eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652845141245,
+          "stop" : 1652845142889,
+          "duration" : 1644
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '用户名密码信息', 'username': 'admin', 'password': 'admin'}" ]
+      }, {
+        "name" : "失败测试",
+        "uid" : "5a75ff413f6d9eaf",
+        "parentUid" : "c8c48256d258b8f2fe645ab01c368eff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652845175324,
+          "stop" : 1652845175324,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_success",
+        "uid" : "d631965135a11f05",
+        "parentUid" : "c8c48256d258b8f2fe645ab01c368eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652845175414,
+          "stop" : 1652845175414,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_skip",
+        "uid" : "c9724e604208f560",
+        "parentUid" : "c8c48256d258b8f2fe645ab01c368eff",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1652845175420,
+          "stop" : 1652845175420,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "增删改查测试项目",
+        "uid" : "ae7868b7932741b0",
+        "parentUid" : "c8c48256d258b8f2fe645ab01c368eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652845146117,
+          "stop" : 1652845160822,
+          "duration" : 14705
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '项目1', 'projectname': '123', 'num': '1', 'version': '第一版'}" ]
+      } ],
+      "uid" : "c8c48256d258b8f2fe645ab01c368eff"
+    } ],
+    "uid" : "ef22e4932381b9091fe60cd85a1f152b"
+  } ]
+}

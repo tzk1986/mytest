@@ -1,0 +1,33 @@
+2022/05/18/11:39:06 [[32mINFO[0m] pageobject.add_project (add_project.py:54): 输入项目名：123
+2022/05/18/11:39:06 [[32mINFO[0m] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="id_project_name"]
+2022/05/18/11:39:06 [[32mINFO[0m] pageobject.add_project (add_project.py:56): 选择类型
+2022/05/18/11:39:06 [[32mINFO[0m] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="id_project_type"]
+2022/05/18/11:39:06 [[32mINFO[0m] pageobject.add_project (add_project.py:58): 输入项目版本：第一版
+2022/05/18/11:39:06 [[32mINFO[0m] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="id_project_version"]
+2022/05/18/11:39:06 [[32mINFO[0m] pageobject.add_project (add_project.py:60): 保存
+2022/05/18/11:39:06 [[32mINFO[0m] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="project_form"]/div/div/input[1]
+2022/05/18/11:39:12 [[32mINFO[0m] testcase.test_login (test_login.py:91): 添加测试项目成功
+2022/05/18/11:39:12 [[32mINFO[0m] pageobject.add_project (add_project.py:67): 选择筛选项目
+2022/05/18/11:39:12 [[32mINFO[0m] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="changelist-filter"]/ul/li[1]/a
+2022/05/18/11:39:12 [[32mINFO[0m] pageobject.add_project (add_project.py:69): 输入项目名：123
+2022/05/18/11:39:12 [[32mINFO[0m] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="searchbar"]
+2022/05/18/11:39:12 [[32mINFO[0m] pageobject.add_project (add_project.py:71): 点击搜索
+2022/05/18/11:39:12 [[32mINFO[0m] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="changelist-search"]/div/input[2]
+2022/05/18/11:39:13 [[32mINFO[0m] testcase.test_login (test_login.py:94): 搜索测试项目成功
+2022/05/18/11:39:13 [[32mINFO[0m] pageobject.add_project (add_project.py:77): 删除文本
+2022/05/18/11:39:13 [[32mINFO[0m] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="id_form-0-project_version"]
+2022/05/18/11:39:13 [[32mINFO[0m] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="id_form-0-project_version"]
+2022/05/18/11:39:13 [[32mINFO[0m] pageobject.add_project (add_project.py:79): 输入文本版本修正
+2022/05/18/11:39:13 [[32mINFO[0m] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="id_form-0-project_version"]
+2022/05/18/11:39:16 [[32mINFO[0m] pageobject.add_project (add_project.py:82): 点击保存
+2022/05/18/11:39:16 [[32mINFO[0m] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="changelist-form"]/p/input
+2022/05/18/11:39:16 [[32mINFO[0m] testcase.test_login (test_login.py:97): 修改测试项目成功
+2022/05/18/11:39:16 [[32mINFO[0m] pageobject.add_project (add_project.py:88): 选择第一行
+2022/05/18/11:39:17 [[32mINFO[0m] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="result_list"]/tbody/tr[1]/td[1]/input
+2022/05/18/11:39:17 [[32mINFO[0m] pageobject.add_project (add_project.py:90): 选择行为delete_selected
+2022/05/18/11:39:17 [[32mINFO[0m] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="changelist-form"]/div[2]/label/select
+2022/05/18/11:39:17 [[32mINFO[0m] pageobject.add_project (add_project.py:92): 点击执行
+2022/05/18/11:39:17 [[32mINFO[0m] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="changelist-form"]/div[2]/button
+2022/05/18/11:39:17 [[32mINFO[0m] pageobject.add_project (add_project.py:94): 二次确认
+2022/05/18/11:39:17 [[32mINFO[0m] base.BasePage (BasePage.py:45): 元素定位成功，元素：//*[@id="content"]/form/div/input[4]
+2022/05/18/11:39:20 [[32mINFO[0m] testcase.test_login (test_login.py:100): 删除测试项目成功

@@ -1,0 +1,33 @@
+[ 2022-05-25 14:58:58 log.py | INFO | Start to create new test project: mytest01
+[ 2022-05-25 14:58:58 log.py | INFO | CWD: /Users/tangzhongkai/PycharmProjects/seldomtest
+
+[ 2022-05-25 14:58:58 log.py | INFO | created folder: mytest01
+[ 2022-05-25 14:58:58 log.py | INFO | created folder: mytest01/test_dir
+[ 2022-05-25 14:58:58 log.py | INFO | created folder: mytest01/reports
+[ 2022-05-25 14:58:58 log.py | INFO | created folder: mytest01/test_data
+[ 2022-05-25 14:58:58 log.py | INFO | created file: mytest01/test_data/data.json
+[ 2022-05-25 14:58:58 log.py | INFO | created file: mytest01/test_dir/test_web_sample.py
+[ 2022-05-25 14:58:58 log.py | INFO | created file: mytest01/test_dir/test_api_sample.py
+[ 2022-05-25 14:58:58 log.py | INFO | created file: mytest01/run.py
+[ 2022-05-26 14:12:27 log.py | INFO | Start to create new test project: mytest02
+[ 2022-05-26 14:12:27 log.py | INFO | CWD: /Users/tangzhongkai/PycharmProjects/seldomtest
+
+[ 2022-05-26 14:12:27 log.py | INFO | created folder: mytest02
+[ 2022-05-26 14:12:27 log.py | INFO | created folder: mytest02/test_dir
+[ 2022-05-26 14:12:27 log.py | INFO | created folder: mytest02/reports
+[ 2022-05-26 14:12:27 log.py | INFO | created folder: mytest02/test_data
+[ 2022-05-26 14:12:27 log.py | INFO | created file: mytest02/test_data/data.json
+[ 2022-05-26 14:12:27 log.py | INFO | created file: mytest02/test_dir/test_web_sample.py
+[ 2022-05-26 14:12:27 log.py | INFO | created file: mytest02/test_dir/test_api_sample.py
+[ 2022-05-26 14:12:27 log.py | INFO | created file: mytest02/run.py
+[ 2022-05-26 18:26:05 log.py | INFO | 📖 https://www.baidu.com
+[ 2022-05-26 18:26:09 log.py | INFO | ✅ Find 1 element: id=kw  -> input 'seldom'.
+[ 2022-05-26 18:26:10 log.py | INFO | ✅ Find 1 element: css selector=#su  -> click.
+[ 2022-05-26 18:26:21 log.py | WARNING | ❌ assert fail: seldom_百度搜索.
+[ 2022-05-26 18:26:21 log.py | INFO | 🔖 Test Case: None
+[ 2022-05-26 18:26:21 log.py | INFO | 📖 https://www.baidu.com
+[ 2022-05-26 18:26:22 log.py | INFO | 🔍 find Find 1 element: css selector=#kw .
+[ 2022-05-26 18:26:22 log.py | INFO | ✅ input 'seldom'.
+[ 2022-05-26 18:26:23 log.py | INFO | 🔍 find Find 1 element: css selector=#su .
+[ 2022-05-26 18:26:23 log.py | INFO | ✅ click.
+[ 2022-05-26 18:26:24 log.py | INFO | 👀 assert title: seldom_百度搜索.

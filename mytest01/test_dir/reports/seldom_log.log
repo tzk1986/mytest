@@ -1,0 +1,47 @@
+[ 2022-05-25 17:20:27 log.py | INFO | 📖 https://cn.bing.com
+[ 2022-05-25 17:20:34 log.py | INFO | ✅ Find 1 element: id=sb_form_q  -> input 'seldom'.
+[ 2022-05-25 17:20:36 log.py | INFO | 👀 assertIn title: seldom - 搜索.
+[ 2022-05-25 17:20:36 log.py | INFO | 📖 https://cn.bing.com
+[ 2022-05-25 17:20:37 log.py | INFO | ✅ Find 1 element: id=sb_form_q  -> input 'poium'.
+[ 2022-05-25 17:20:38 log.py | INFO | 👀 assertIn title: poium - 搜索.
+[ 2022-05-25 17:20:38 log.py | INFO | 📖 https://cn.bing.com
+[ 2022-05-25 17:20:39 log.py | INFO | ✅ Find 1 element: id=sb_form_q  -> input 'XTestRunner'.
+[ 2022-05-25 17:20:40 log.py | INFO | 👀 assertIn title: XTestRunner - 搜索.
+[ 2022-05-25 17:20:40 log.py | INFO | 📖 http://www.itest.info
+[ 2022-05-25 17:20:47 log.py | INFO | 👀 assertIn url: http://www.itest.info/.
+[ 2022-05-25 17:29:26 log.py | INFO | 📖 https://cn.bing.com
+[ 2022-05-25 17:29:32 log.py | INFO | ✅ Find 1 element: id=sb_form_q  -> input 'seldom'.
+[ 2022-05-25 17:29:33 log.py | INFO | 👀 assertIn title: seldom - 搜索.
+[ 2022-05-25 17:29:33 log.py | INFO | 📖 https://cn.bing.com
+[ 2022-05-25 17:29:35 log.py | INFO | ✅ Find 1 element: id=sb_form_q  -> input 'poium'.
+[ 2022-05-25 17:29:36 log.py | INFO | 👀 assertIn title: poium - 搜索.
+[ 2022-05-25 17:29:36 log.py | INFO | 📖 https://cn.bing.com
+[ 2022-05-25 17:29:37 log.py | INFO | ✅ Find 1 element: id=sb_form_q  -> input 'XTestRunner'.
+[ 2022-05-25 17:29:38 log.py | INFO | 👀 assertIn title: XTestRunner - 搜索.
+[ 2022-05-25 17:38:19 log.py | INFO | 📖 https://cn.bing.com
+[ 2022-05-25 17:38:25 log.py | INFO | ✅ Find 1 element: id=sb_form_q  -> input 'seldom'.
+[ 2022-05-25 17:38:26 log.py | INFO | 👀 assertIn title: seldom - 搜索.
+[ 2022-05-25 17:38:26 log.py | INFO | 📖 https://cn.bing.com
+[ 2022-05-25 17:38:27 log.py | INFO | ✅ Find 1 element: id=sb_form_q  -> input 'poium'.
+[ 2022-05-25 17:38:28 log.py | INFO | 👀 assertIn title: poium - 搜索.
+[ 2022-05-25 17:38:28 log.py | INFO | 📖 https://cn.bing.com
+[ 2022-05-25 17:38:30 log.py | INFO | ✅ Find 1 element: id=sb_form_q  -> input 'XTestRunner'.
+[ 2022-05-25 17:38:30 log.py | INFO | 👀 assertIn title: XTestRunner - 搜索.
+[ 2022-05-25 17:39:10 log.py | INFO | 📖 https://cn.bing.com
+[ 2022-05-25 17:39:18 log.py | INFO | ✅ Find 1 element: id=sb_form_q  -> input 'seldom'.
+[ 2022-05-25 17:39:19 log.py | INFO | 👀 assertIn title: seldom - 搜索.
+[ 2022-05-25 17:39:19 log.py | INFO | 📖 https://cn.bing.com
+[ 2022-05-25 17:39:20 log.py | INFO | ✅ Find 1 element: id=sb_form_q  -> input 'poium'.
+[ 2022-05-25 17:39:21 log.py | INFO | 👀 assertIn title: poium - 搜索.
+[ 2022-05-25 17:39:21 log.py | INFO | 📖 https://cn.bing.com
+[ 2022-05-25 17:39:38 log.py | INFO | ✅ Find 1 element: id=sb_form_q  -> input 'XTestRunner'.
+[ 2022-05-25 17:39:39 log.py | INFO | 👀 assertIn title: XTestRunner - 搜索.
+[ 2022-05-26 18:13:38 log.py | INFO | 📖 https://cn.bing.com
+[ 2022-05-26 18:13:42 log.py | INFO | ✅ Find 1 element: id=sb_form_q  -> input 'seldom'.
+[ 2022-05-26 18:13:43 log.py | INFO | 👀 assertIn title: seldom - 搜索.
+[ 2022-05-26 18:13:43 log.py | INFO | 📖 https://cn.bing.com
+[ 2022-05-26 18:13:44 log.py | INFO | ✅ Find 1 element: id=sb_form_q  -> input 'poium'.
+[ 2022-05-26 18:13:45 log.py | INFO | 👀 assertIn title: poium - 搜索.
+[ 2022-05-26 18:13:45 log.py | INFO | 📖 https://cn.bing.com
+[ 2022-05-26 18:13:47 log.py | INFO | ✅ Find 1 element: id=sb_form_q  -> input 'XTestRunner'.
+[ 2022-05-26 18:13:47 log.py | INFO | 👀 assertIn title: XTestRunner - 搜索.

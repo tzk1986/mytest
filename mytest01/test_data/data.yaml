@@ -1,0 +1,14 @@
+login1:
+  - - admin
+    - admin123
+  - - guest
+    - guest123
+login2:
+  - username: Tom
+    password: tom123
+  - username: Tom
+    password: tom123
+bing:
+  - seldom
+  - poium
+  - XTestRunner

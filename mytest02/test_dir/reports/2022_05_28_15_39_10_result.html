@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title> Seldom Test Report </title>
+    <meta name="generator" content="XTestRunner 1.4.2" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://img.itest.info/seldom-main.css">
+    <link rel="stylesheet" href="http://img.itest.info/seldom-utilities.css">
+
+    <style type="text/css" media="screen">
+    body {
+        font-family: verdana, arial, helvetica, sans-serif;
+        font-size: 80%;
+    }
+
+    table {
+        font-size: 100%;
+    }
+
+    .table td {
+        white-space: inherit !important;
+    }
+
+    /* -- heading ---------------------------------------------------------------------- */
+    h1 {
+        font-size: 16pt;
+        color: gray;
+    }
+
+    pre {
+        background-color: #eef2f7;
+        padding-top: 10px;
+        text-align: left;
+        max-height: 600px;
+        overflow: auto;
+    }
+
+    ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+        background-color: #F5F5F5;
+    }
+
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        background-color: rgba(114,124,245,.25);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #6c757d;
+    }
+
+    .heading {
+        margin-top: 20px;
+        margin-bottom: 1ex;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 23%;
+        float: left;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        box-shadow: 0px 0px 5px #000;
+    }
+
+    .heading .attribute {
+        margin-top: 1ex;
+        margin-bottom: 0;
+    }
+
+    .heading .description {
+        margin-top: 4ex;
+        margin-bottom: 6ex;
+    }
+
+    /* -- css div popup ------------------------------------------------------------------------ */
+
+    a.popup_link:hover {
+        color: red;
+    }
+
+    .log_window {
+        max-width: 70%;
+        max-height: 70%;
+    }
+
+    /* -- report ------------------------------------------------------------------------ */
+    .show_detail_line {
+        margin-left: 10px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .show_detail_button {
+        margin-top: 3ex;
+        margin-bottom: 1ex;
+        margin-left: 10px;
+        text-align: right;
+        margin-right: 15px;
+    }
+
+    .header_row {
+        font-weight: bold;
+        color: #606060;
+        border-top-width: 10px;
+        border-color: #d6e9c6;
+        font-size: 15px;
+    }
+
+    .total_row {
+        font-weight: bold;
+        background-color: #dee2e6;
+    }
+
+    .passClass {
+        background-color: #ccf5e7;
+    }
+
+    .failClass {
+        background-color: #ffe8cc;
+    }
+
+    .errorClass {
+        background-color: #ffd6e0;
+    }
+
+    .passCase {
+        color: #00CC88;
+        font-weight: bold;
+    }
+
+    .failCase {
+        color: #FF8C00;
+        font-weight: bold;
+    }
+
+    .errorCase {
+        color: #FF3366;
+        font-weight: bold;
+    }
+
+    .hiddenRow {
+        display: none;
+    }
+
+    .caseStatistics {
+        width: 46%
+    }
+
+    .none {
+        color: #009900
+    }
+
+    .testcase {
+        margin-left: 2em;
+    }
+
+    /* -- chars ---------------------------------------------------------------------- */
+    .testChars {
+        width: 900px;
+        margin-left: 0px;
+    }
+
+    .error-color {
+        color: #fff;
+        background-color: #f44455;
+        border-color: #f44455;
+    }
+
+    .pass-color {
+        color: #fff;
+        background-color: #5fc27e;
+        border-color: #5fc27e;
+    }
+
+    .fail-color {
+        color: #fff;
+        background-color: #fcc100;
+        border-color: #fcc100;
+    }
+
+    .skip-color {
+        color: #fff;
+        background-color: #6c757d;
+        border-color: #6c757d;
+    }
+
+    /* -- screenshots ---------------------------------------------------------------------- */
+    .img {
+        border-collapse: collapse;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .img-card {
+        height: 600px;
+        width:800px;
+        background-color: #e7eaf0;
+    }
+
+    .img-circle {
+        height: 20px;
+        border-radius: 12px;
+        background-color: red;
+        padding-left: 13px;
+        margin: 0 auto;
+        position: relative;
+        top: -40px;
+        background-color: rgba(1, 150, 0, 0.3);
+    }
+
+    .img-circle font {
+        border: 1px solid white;
+        width: 11px;
+        height: 11px;
+        border-radius: 50%;
+        margin-right: 9px;
+        margin-top: 4px;
+        display: block;
+        float: left;
+        background-color: white;
+    }
+
+    .close-shots {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        z-index: 99;
+    }
+
+    .footer {
+        height: 50px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+    }
+
+    #headContainer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .head-list {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #resultContainer {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+
+</style>
+</head>
+
+<body style="background-color: #f5f9fc;">
+    <script language="javascript" type="text/javascript">
+        function showLog(id) {
+            document.body.style.overflow = 'hidden'
+            document.body.style.height='100%'
+            document.getElementById(id).style.display = 'block'
+        }
+
+        function hideLog(id) {
+            document.body.style.overflow = 'auto';
+            document.getElementById(id).style.display = 'none'
+        }
+
+        function showImg(obj) {
+            document.body.style.overflow = 'hidden'
+            document.body.style.height='100%'
+            var nextObj = obj.nextElementSibling
+            nextObj.style.display = 'block'
+            var index = 0;   //每张图片的下标，
+            var len = nextObj.getElementsByTagName('img').length;
+            var imgCircle = nextObj.getElementsByClassName('img-circle')[0]
+            nextObj.onmouseover = function () {  //当鼠标光标停在图片上，则停止轮播
+                clearInterval(start);
+            }
+            nextObj.onmouseout = function () {  //当鼠标光标停在图片上，则开始轮播
+                start = setInterval(autoPlay, 1000);
+            }
+            for (var i = 0; i < len; i++) {
+                var fontTag = document.createElement('font')
+                imgCircle.appendChild(fontTag)
+            }
+            var fontTagList = nextObj.getElementsByTagName('font');  //得到所有圆圈
+            changeImg(0)
+            var funny = function (i) {
+                fontTagList[i].onmouseover = function () {
+                    index = i
+                    changeImg(i)
+                }
+            }
+            for (var i = 0; i < fontTagList.length; i++) {
+                funny(i);
+            }
+
+            function autoPlay() {
+                if (index > len - 1) {
+                    index = 0;
+                    clearInterval(start); //运行一轮后停止
+                }
+                changeImg(index++);
+            }
+            imgCircle.style.width = 30 * len + "px";
+            // 对应圆圈和图片同步
+            function changeImg(index) {
+                var imgTags = nextObj.getElementsByTagName('img');
+                var fontTags = nextObj.getElementsByTagName('font');
+                for (i=0; i < fontTags.length; i++) {
+                    imgTags[i].style.display = 'none';
+                    fontTags[i].style.backgroundColor = 'white';
+                }
+                imgTags[index].style.display = 'block';
+                if (fontTags.length > 0) {
+                    fontTags[index].style.backgroundColor = 'red';
+                }
+            }
+        }
+
+        function hideImg(obj) {
+            document.body.style.overflow = 'auto';
+            obj.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none";
+            obj.parentElement.parentElement.parentElement.getElementsByClassName('img-circle')[0].innerHTML = "";
+        }
+
+        output_list = Array();
+        /* level 
+        - 0:Summary
+        - 1:Failed 
+        - 2:Skip
+        - 3:All 
+        */
+        function showCase(level, channel) {
+            trs = document.getElementsByTagName("tr");
+            for (var i=0; i < trs.length; i++) {
+                tr = trs[i];
+                id = tr.id;
+                if (["ft", "pt", "et", "st"].indexOf(id.substr(0, 2)) != -1) {
+                    if (level == 0 && id.substr(2, 1) == channel) {
+                        tr.className = 'hiddenRow';
+                    }
+                }
+                if (id.substr(0, 3) == 'pt' + channel) {
+                    if (level == 1) {
+                        tr.className = '';
+                    }
+                    else if (level > 4 && id.substr(2, 1) == channel) {
+                        tr.className = '';
+                    }
+                    else {
+                        tr.className = 'hiddenRow';
+                    }
+                }
+                if (id.substr(0, 3) == 'ft' + channel) {
+                    if (level == 2) {
+                        tr.className = '';
+                    }
+                    else if (level > 4 && id.substr(2, 1) == channel) {
+                        tr.className = '';
+                    }
+                    else {
+                        tr.className = 'hiddenRow';
+                    }
+                }
+                if (id.substr(0, 3) == 'et' + channel) {
+                    if (level == 3) {
+                        tr.className = '';
+                    }
+                    else if (level > 4 && id.substr(2, 1) == channel) {
+                        tr.className = '';
+                    }
+                    else {
+                        tr.className = 'hiddenRow';
+                    }
+                }
+                if (id.substr(0, 3) == 'st' + channel) {
+                    if (level == 4) {
+                        tr.className = '';
+                    }
+                    else if (level > 4 && id.substr(2, 1) == channel) {
+                        tr.className = '';
+                    }
+                    else {
+                        tr.className = 'hiddenRow';
+                    }
+                }
+            }
+        }
+        function showClassDetail(cid, count) {
+            var id_list = Array(count);
+            var toHide = 1;
+            for (var i=0; i < count; i++) {
+                tid0 = 't' + cid.substr(1) + '.' + (i + 1);
+                tid = 'f' + tid0;
+                tr = document.getElementById(tid);
+                if (!tr) {
+                    tid = 'p' + tid0;
+                    tr = document.getElementById(tid);
+                }
+                if (!tr) {
+                    tid = 'e' + tid0;
+                    tr = document.getElementById(tid);
+                }
+                if (!tr) {
+                    tid = 's' + tid0;
+                    tr = document.getElementById(tid);
+                }
+                id_list[i] = tid;
+                if (tr.className) {
+                    toHide = 0;
+                }
+            }
+            for (var i = 0; i < count; i++) {
+                tid = id_list[i];
+                if (toHide) {
+                    document.getElementById(tid).className = 'hiddenRow';
+                }
+                else {
+                    document.getElementById(tid).className = '';
+                }
+            }
+        }
+        function showTestDetail(div_id) {
+            var detailsDiv = document.getElementById(div_id)
+            var displayState = detailsDiv.style.display
+
+            if (displayState != 'block') {
+                displayState = 'block'
+                detailsDiv.style.display = 'block'
+            }
+            else {
+                detailsDiv.style.display = 'none'
+            }
+        }
+        function html_escape(s) {
+            s = s.replace(/&/g, '&amp;');
+            s = s.replace(/</g, '&lt;');
+            s = s.replace(/>/g, '&gt;');
+            return s;
+        }
+    </script>
+
+    <nav class="navbar navbar-light position-lg-sticky top-lg-0 d-none d-lg-block overlap-10 flex-none bg-white border-bottom px-0 py-3" id="topbar">
+    <div class="container-fluid">
+        <div class="hstack gap-2">
+            <a href="https://github.com/SeldomQA/XTestRunner">
+                <img src="http://img.itest.info/XTestRunner_logo.jpg" style="height: 2.25rem;">
+            </a>
+        </div>
+        <div class="navbar-user d-none d-sm-block">
+            <div class="hstack gap-3 ms-4">
+                <h3 style="float: right;"> Seldom Test Report </h3>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div id="headContainer" class="container-fluid mm-active">
+    <div class="row">
+        <div class="col-12 col-lg-5 col-xl-4 d-flex" style="float:left">
+            <div class='card flex-fill'>
+                <div class="card-header">
+                    <div class="d-flex align-items-center">
+                        <h5 class="mb-0">Overview</h5>
+                    </div>
+                </div>
+                <div class="card-body py-0 position-relative scrollable-y" style="max-height:300px">
+                    <div class="list-group list-group-flush">
+                        <div class="list-group-item px-0 position-relative hstack flex-wrap head-list">
+                            <div class="flex-1">
+                                <div class="d-flex align-items-center mb-1">Tester</div>
+                                <div class="d-flex align-items-center">
+                                    <div class="text-sm text-muted line-clamp-1 me-auto">Anonymous</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-group-item px-0 position-relative hstack flex-wrap head-list">
+                            <div class="flex-1">
+                                <div class="d-flex align-items-center mb-1">Start time - End time</div>
+                                <div class="d-flex align-items-center">
+                                    <div class="text-sm text-muted line-clamp-1 me-auto">2022-05-28 15:39:11 - 2022-05-28 15:39:27</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-group-item px-0 position-relative hstack flex-wrap head-list">
+                            <div class="flex-1">
+                                <div class="d-flex align-items-center mb-1">Duration</div>
+                                <div class="d-flex align-items-center">
+                                    <div class="text-sm text-muted line-clamp-1 me-auto">0:00:16.036</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-group-item px-0 position-relative hstack flex-wrap head-list">
+                            <div class="flex-1">
+                                <div class="d-flex align-items-center mb-1">Status</div>
+                                <div class="d-flex align-items-center">
+                                    <div class="text-sm text-muted line-clamp-1 me-auto">
+                                        <span class="badge badge-pill bg-soft-success text-success me-2">Passed:1</span>
+                                        <span class="badge badge-pill bg-soft-warning text-warning me-2">Failed:0</span>
+                                        <span class="badge badge-pill bg-soft-danger text-danger me-2">Errors:1</span>
+                                        <span class="badge badge-pill bg-soft-secondary text-secondary me-2">Skipped:0</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-group-item px-0 position-relative hstack flex-wrap" style="padding-top: 5px;">
+                            <div class="flex-1">
+                                <div class="d-flex align-items-center mb-1">Description</div>
+                                <div class="d-flex align-items-center">
+                                    <div class="text-sm text-muted me-auto">Test case execution</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="width: 20%">
+            <div class="card" style="height: 45%;">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col"><span class="h6 font-semibold text-muted text-sm d-block mb-2">Passed</span>
+                            <span class="h3 font-bold mb-0">1</span>
+                        </div>
+                        <div class="col-auto">
+                            <div class="icon icon-shape bg-success text-white text-lg rounded-circle">P</div>
+                        </div>
+                    </div>
+                    <div class="mt-2 mb-0 text-sm">
+                        <span class="badge badge-pill bg-soft-success text-success me-2">50.00%</span>
+                        <span class="text-nowrap text-xs text-muted">Pass rate</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="progress" style="width:70%; margin-top: 5px;">
+                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="83" aria-valuemin="0"
+                                aria-valuemax="100" style="width:50.00%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="height: 45%; top: 10%;">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col"><span class="h6 font-semibold text-muted text-sm d-block mb-2">Failed</span>
+                            <span class="h3 font-bold mb-0">0</span></div>
+                        <div class="col-auto">
+                            <div class="icon icon-shape bg-warning text-white text-lg rounded-circle">F</div>
+                        </div>
+                    </div>
+                    <div class="mt-2 mb-0 text-sm">
+                        <span class="badge badge-pill bg-soft-warning text-warning me-2">0.00%</span>
+                        <span class="text-nowrap text-xs text-muted">Failure rate</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="progress" style="width:70%; margin-top: 5px;">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="83" aria-valuemin="0"
+                                aria-valuemax="100" style="width:0.00%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="width: 20%">
+            <div class="card" style="height: 45%;">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col"><span class="h6 font-semibold text-muted text-sm d-block mb-2">Errors</span>
+                            <span class="h3 font-bold mb-0">1</span></div>
+                        <div class="col-auto">
+                            <div class="icon icon-shape bg-danger text-white text-lg rounded-circle">E</div>
+                        </div>
+                    </div>
+                    <div class="mt-2 mb-0 text-sm">
+                        <span class="badge badge-pill bg-soft-danger text-danger me-2">50.00%</span>
+                        <span class="text-nowrap text-xs text-muted">Error rate</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="progress" style="width:70%; margin-top: 5px;">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="83" aria-valuemin="0"
+                                aria-valuemax="100" style="width:50.00%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="height: 45%; top: 10%;">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col">
+                            <span class="h6 font-semibold text-muted text-sm d-block mb-2">Skipped</span>
+                            <span class="h3 font-bold mb-0">0</span>
+                        </div>
+                        <div class="col-auto">
+                            <div class="icon icon-shape bg-secondary text-white text-lg rounded-circle">S</div>
+                        </div>
+                    </div>
+                    <div class="mt-2 mb-0 text-sm">
+                        <span class="badge badge-pill bg-soft-secondary text-secondary me-2">0.00%</span>
+                        <span class="text-nowrap text-xs text-muted">Skip rate</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="progress" style="width:70%; margin-top: 5px;">
+                            <div class="progress-bar bg-secondary" role="progressbar" aria-valuenow="83" aria-valuemin="0"
+                                aria-valuemax="100" style="width:0.00%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<div id="resultContainer" class="card">
+    <div class="card-header border-bottom">
+        <span style="float: left;">
+            <h5 class="mb-0">Result</h5>
+        </span>
+        <span style="float: right;">
+            <a href='javascript:showCase(0, 1)' class="btn btn-dark btn-sm">Summary</a>
+            <a href='javascript:showCase(1, 1)' class="btn btn-success btn-sm">Pass</a>
+            <a href='javascript:showCase(2, 1)' class="btn btn-warning btn-sm">Failed</a>
+            <a href='javascript:showCase(3, 1)' class="btn btn-danger btn-sm">Error</a>
+            <a href='javascript:showCase(4, 1)' class="btn btn-secondary btn-sm">Skip</a>
+            <a href='javascript:showCase(5, 1)' class="btn btn-info btn-sm">All</a>
+        </span>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-hover table-nowrap">
+            <thead class="table-light">
+                <tr>
+                    <th scope="col">Test Group/Test Case</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Duration</th>
+                    <th scope="col">Count(times)</th>
+                    <th scope="col">Pass(times)</th>
+                    <th scope="col">Fail(times)</th>
+                    <th scope="col">Error(times)</th>
+                    <th scope="col">View</th>
+                    <th scope="col">Screenshots</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+<tr class='failClass'>
+    <td>test_seldom_pure.TestPlatform</td>
+    <td></td>
+    <td></td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c1.1',2)">Detail</a></td>
+    <td>&nbsp;</td>
+</tr>
+
+<tr id='et1.1.1' class='none'>
+    <td class='errorCase'>
+        <div class='testcase'>test_Project</div>
+    </td>
+    <td style="color: #495057">
+        <div></div>
+    </td>
+    <td style="color: #495057">
+        <div>13.17 s</div>
+    </td>
+    <td colspan='5' align='center' class='caseStatistics'>
+        <!--css div popup start-->
+        <a class="popup_link" href="javascript:void(0)" onclick="showLog('div_et1.1.1')">error</a>
+        <div id='div_et1.1.1' class="modal show" style="display: none; background-color: #000000c7;">
+            <div class="modal-dialog modal-dialog-centered log_window">
+                <div class="modal-content shadow-3">
+                    <div class="modal-header">
+                        <div>
+                            <h5 class="mb-1">test_Project</h5>
+                        </div>
+                        <div>
+                            <h5 class="mb-1">detailed log</h5>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-sm btn-square bg-tertiary bg-opacity-20 bg-opacity-100-hover text-tertiary text-white-hover" data-bs-dismiss="modal" onclick="hideLog('div_et1.1.1')">X</button>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div>
+                            <pre>et1.1.1: 2022-05-28 15:39:11 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+
+[WDM] - ====== WebDriver manager ======
+[WDM] - Current google-chrome version is 102.0.5005
+[WDM] - Get LATEST chromedriver version for 102.0.5005 google-chrome
+[WDM] - Driver [/Users/tangzhongkai/.wdm/drivers/chromedriver/mac64/102.0.5005.27/chromedriver] found in cache
+Traceback (most recent call last):
+  File "/Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/test_seldom_pure.py", line 34, in test_Project
+    self.type(xpath='//*[@id="id_project_name"]', text="测试第一版")
+  File "/Users/tangzhongkai/PycharmProjects/2022unittest/venv/lib/python3.9/site-packages/seldom/webdriver.py", line 263, in type
+    elem = web_elem.get_elements(index)
+  File "/Users/tangzhongkai/PycharmProjects/2022unittest/venv/lib/python3.9/site-packages/seldom/webdriver.py", line 98, in get_elements
+    raise NotFindElementError(self.find_elem_warn)
+seldom.logging.exceptions.NotFindElementError: Message: ❌ Find 0 element through: xpath=//*[@id="id_project_name"]
+
+</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--css div popup end-->
+    </td>
+    <td>
+<a onfocus='this.blur();' href="javascript:void(0)" onclick="showImg(this)">show</a>
+<div id="case-image" class="modal show" style="display:none; background-color: #000000c7;">
+  <div class="modal-dialog modal-dialog-centered log_window">
+    <div class="modal-content shadow-3">
+      <div class="modal-header">
+        <div>
+          <h5 class="mb-1">screenshots</h5>
+        </div>
+          <div>
+            <button class="btn btn-sm btn-square bg-tertiary bg-opacity-20 bg-opacity-100-hover text-tertiary text-white-hover" onclick='hideImg(this)'">X</button>
+          </div>
+        </div>
+        <div class="modal-body" style="height: 600px; background: #e7eaf0;">
+          <img src="data:image/jpg;base64,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bsCAAVm0aFGuueaafPGLX9yk482bNy/Tpk3LwIEDc8ghh6y3rqGhoccyAABg6xGwACje9ddfn0GDBiVJfvjDH2bRokX50pe+1L3+3HPP7bHPpz/96cyfP7/79dKlS9PW1pbf/va36233ta99Lfvvv3/3666urtx99935xje+kYaGhjQ3N+fSSy/tXv/YY4+lubk5v/rVr7bY+QEAABsnYAFQvGHDhnUHrIEDB2bAgAEZNmxY9/r6+voe+8yZMyenn3569tlnnw0e94wzzki1Wu1+feedd+Z73/te5s2bl2OPPTYnnnhixo0b173+8ccfzxlnnJGvfvWrW+K0AACATSRgAVC8qVOn9lh24403rvf6gAMO6LHN2LFjs/vuu2/wuA0N6/812NramqlTp+aEE07Ir3/965xyyimZNm1aPvjBD+amm27K+eefn3PPPTeTJ0/u3qejoyOXXXZZpkyZkj333PO1nhoAALAJBCwAinfddddl8ODBSXq/hfCcc87pdb9bbrklv/vd7zZ43JUrV673+r3vfW/3n9///vfnwAMPzGc+85n84Ac/SLVazQUXXJCDDz54vX3a2toyffr0jBgxQsACAICtRMACoHgjRozovoVw0KBBWbFiRZqbm7vXNzY29tinvb09Tz75ZF588cUNHvfAAw/Mdttt12N5Z2dnHnrooVx99dVZuHBhPvzhD+f000/P0KFDe2w7ZMiQ3HHHHamr88W+AACwtQhYABSro6MjSfKTn/ykO1LNnDkzLS0tufrqq7u3e+aZZ7Lvvvt2v65Wq2lpackPfvCD7Lzzzpv0XsuXL899992X++67L3fddVdaWlq619144409blk877zzcuihhyaJeAUAAFuZgAVAsRYsWJAkmTVrVveyuXPnZt26dZkxY0b3stbW1l7322mnnTb5vZYsWZIvf/nLmTJlSk466aRcdNFFueyyyzJgwIAe25555plZt27dazoXAADgTydgAVCsF198MePHj883vvGN7mWXXHJJXnrppfz93/9997K/+Zu/WW+/BQsWZJdddunxkPaN2W233XL//fenvr4+ixYtykUXXZSJEydm4MCBPbbt7ZZFAABg63HPAwDFmjlz5nq3Bm6qW265pddvJXw19fX1r3mfzs7O/Nu//VueeeaZ17wvAACwaVyBBUCRWltbc9VVV+Uf//EfN7hNW1tbOjo6MmfOnBx00EFJkoULF+aGG27I9OnTN3uGCy+8MP369euxfPHixd1/XrlyZS6++OIMGjQo48eP3+z3BAAAehKwACjSI488kj322CNTpkxZb3lTU1P3NxK+733vS0tLS5qbmzNp0qQkyc0335zJkydn4sSJmz3Ddttt12vA+mNDhw7Nvffe+6rbAQAAf7pKtVrtqvUQAGzbWltbM2rUqC1+3CVLlmTEiBEbXN/W1pb29vYMHjy4+5sAV61alcWLF2fXXXf9k993zZo1ufvuu3PkkUf2elvhfffdlwkTJmTkyJF/8nsAvFEsWLAgw4cPr/UYAGzjBCwANtvWClgAbPsELAC2BA9xBwAAAKBoAhYAAAAARROwAAAAACiagAUAAABA0QQsAAAAAIomYAEAAABQtIZaDwAAG3PFfS255PZFuf/pVVnT3lXrcQD6lAENlUyaMCifmjIyJx3aXOtxAGCDBCwAivXFq+bmgl8uqPUYAH3Wmvau3DlrZe6ctTKPPNeW808cW+uRAKBXAhYARbrivpbueHXxybvk5MOaM6SxvsZTAfQtK6odufzulky7/Plc8MsFOWhckyuxACiSZ2ABUKRLbl+U5OV4dcY7R4pXAFvBkMb6nPHOkbn45F2S/NdnLwCURsACoEj3P70qSXLyYa4EANjaXvmsfeWzFwBKI2ABUKRXHtjuyiuAre+Vz1pflgFAqQQsAAAAAIomYAEAAABQNAELAAAAgKIJWABss9761rfWegQAAOB1IGABAAAAUDQBCwAAAICiCVgAAAAAFE3AAgAAAKBoAhYAAAAARROwAAAAACiagAUAAABA0QQsAAAAAIomYAEAAABQNAELAAAAgKIJWAAAAAAUTcACAAAAoGgCFgAAAABFE7AAAAAAKJqABcA266GHHqr1CAAAwOtAwAIAAACgaAIWAAAAAEUTsAAAAAAomoAFQJEGNFSSJCuqHTWeBKDve+Wz9pXPXgAojYAFQJEmTRiUJLn87pYaTwLQ973yWfvKZy8AlEbAAqBIn5oyMkky7fLn891/X+RKLICtYEW1I9/990WZdvnzSf7rsxcASlOpVqtdtR4CgG1ba2trRo0atcWP+8Wr5uaCXy7Y4scFoKczjx6V808cu8WPu2DBggwfPnyLHxeAN5aGWg8AABty/oljc9C4plxy+6Lc//SqrGn3OxeALWlAQyWTJgzKp6aMzEmHNtd6HADYIFdgAbDZttYVWABs+1yBBcCW4BlYAAAAABRNwAIAAACgaAIWAAAAAEUTsAAAAAAomoAFAAAAQNEELAAAAACKJmABAAAAUDQBCwAAAICiCVgAAAAAFE3AAgAAAKBoAhYAAAAARROwAAAAACiagAUAAABA0QQsAAAAAIomYAEAAABQNAELAAAAgKIJWABsM7q6uvLd7343s2fPfs37dnZ29vofAABQvoZaDwAAG3LDDTdk7dq16y275ZZb8uSTT+aII45Yb3n//v1z/PHH54UXXsjZZ5+93roDDzwws2bNyqOPPtrjPS688MIexwIAAMpSqVarXbUeAoBtW2tra0aNGrXFj3vEEUdk0qRJ2X777ZO8fBXVggULstNOO6233dKlS3PPPffkzjvvzOrVq/Pwww/n8ssvT3Nzc4477rgMHz4848aNy7Jly9LY2JhKpZIkede73pUrr7wye+yxxxafHYCXLViwIMOHD6/1GABs49xCCEDRTjjhhOy///757Gc/m2OOOSaPPPJIDjvssHz+85/P6tWrs/vuu+djH/tY9/YDBw7M4YcfnpdeeinHHXdcDj/88Oy7774ZOHBgjj/++CxfvjzNzc3p6nr59zdjxoyp1akBAACbyC2EABRr+vTpueKKK1KtVvPQQw9lt912y7e+9a3cfffd+f73v59Ro0alUqnk9ttvz1VXXdW935w5czJv3rzsv//+Wbt2bRoaGvLCCy8kSXbZZZfubZqbm9PU1JQk6ejoyGWXXZYpU6Zkzz33fP1PFgAA2CBXYAFQrLVr1+aaa67JaaedluTlh7jPnTs3P/rRj7LHHnvkzDPPzNChQ3PppZdm4cKF3ftdd911SZKpU6dm8uTJue222/Lss89mn332SX19fZKXA9aECRO692lra8v06dMzc+bM1/EMAQCATeEKLACK9bOf/SwnnXRSRo8enXXr1uXb3/52mpubc8EFF+TII4/MzTffnOuvvz6f//znc9ZZZ+UnP/lJ1q1bl+nTp6epqSnXXnttvvrVr6azszPPPfdcnnvuuUybNi1J8uyzz2blypWZNm1avvnNb2bIkCG54447UlfndzsAAFAaAQuAYp166qm56aabcsopp+SJJ55Ikhx22GGZOXNmHnnkkdx66605+uijc9JJJ2X27NlZvHhx7rrrrowZMyZLly7NyJEju28RnDRpUo8HzXd1deWcc87JunXrkkS8AgCAQglYABTpgQceyBlnnJHx48fn+OOPzznnnJMHHnggs2bNyqJFizJy5Micdtppeec735n6+vqcc845SZLGxsbsueeeOeuss9Y73n777Zf99ttvvWVr167NOeeck4YGfx0CAEDJ/MQOQJH222+//PjHP87PfvazvP3tb88uu+yScePG5ZJLLklLS0s++9nPJnn54esf//jHc/7552e77bbL6NGj09HRsd6xli1bluOPP77He3z9619P8nL0AgAAyiVgAVCkgQMHZq+99srnPve5HHPMMRvcrqOjIzNmzOi+DfAVbW1tmTVrVpYvX57Bgwfn7LPP7rFvv379kiT9+/dPZ2dnfvSjH+XII4/M+PHjt+zJAAAAm0XAAqB4Tz75ZKrVapJk3rx5Wb58eR588MEk6RGu/thZZ52VefPm5QMf+EAOPfTQHuuvueaa7li1cuXKXHzxxRk0aJCABQAAhRGwACje9OnTM2zYsPWWfec730mSdHZ29ti+UqlkzJgxueGGG3LFFVdkxx137F5300035eqrr87ixYuzcOHC7mdlDR06NPfee2/3VVkAAEA5KtVqtavWQwCwbWttbe3xDX9byq9//esccsghGTp0aK/rOzs7c9NNN+Woo47apGdZtba25ve//3369euXsWPHZuTIkVt6ZAD+yIIFCzJ8+PBajwHANk7AAmCzbc2ABcC2TcACYEuoq/UAAAAAALAxAhYAAAAARROwAAAAACiagAUAAABA0QQsAAAAAIomYAEAAABQtIZaDwAAG9LW1pb58+dnxYoV6ezsrPU4AH1SXV1dhgwZktGjR6epqanW4wBArwQsAIrU1taWWbNmZezYsdltt91SX19f65EA+qSOjo60tLRk1qxZmThxoogFQJHcQghAkebPn5+xY8dm5MiR4hXAVlRfX5+RI0dm7NixmT9/fq3HAYBeCVgAFGnFihVpbm6u9RgAbxjNzc1ZsWJFrccAgF4JWAAUqbOz05VXAK+j+vp6zxsEoFgCFgAAAABFE7AAAAAAKJqABQAAAEDRBCwAAAAAiiZgAQAAAFA0AQsAAACAoglYAAAAABRNwAIAAACgaAIWAAAAAEUTsAAAAAAomoAFAAAAQNEELAAAAACKJmABAAAAUDQBCwAAAICi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LAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWAvyYorbSQP1WQAAAABJRU5ErkJggg==" style="display: block;" class="img"/>
+
+        </div>
+        <div class="img-circle"></div>
+    </div>
+    </div>
+</div>
+</td>
+</tr>
+
+<tr id='pt1.1.2' class='hiddenRow'>
+    <td class='passCase'>
+        <div class='testcase'>test_login</div>
+    </td>
+    <td style="color: #495057">
+        <div></div>
+    </td>
+    <td style="color: #495057">
+        <div>2.87 s</div>
+    </td>
+    <td colspan='5' align='center' class='caseStatistics'>
+        <!--css div popup start-->
+        <a class="popup_link" href="javascript:void(0)" onclick="showLog('div_pt1.1.2')">pass</a>
+        <div id='div_pt1.1.2' class="modal show" style="display: none; background-color: #000000c7;">
+            <div class="modal-dialog modal-dialog-centered log_window">
+                <div class="modal-content shadow-3">
+                    <div class="modal-header">
+                        <div>
+                            <h5 class="mb-1">test_login</h5>
+                        </div>
+                        <div>
+                            <h5 class="mb-1">detailed log</h5>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-sm btn-square bg-tertiary bg-opacity-20 bg-opacity-100-hover text-tertiary text-white-hover" data-bs-dismiss="modal" onclick="hideLog('div_pt1.1.2')">X</button>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div>
+                            <pre>pt1.1.2:                                                                                                                                                                                                                                                                                                                                                                                2022-05-28 15:39:24 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+2022-05-28 15:39:25 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -&gt; input 'admin'.
+2022-05-28 15:39:26 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -&gt; input 'admin'.
+2022-05-28 15:39:26 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -&gt; click.
+</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--css div popup end-->
+    </td>
+    <td></td>
+</tr>
+
+            </tbody>
+        </table>
+    </div>
+    <div class="card-footer border-0 py-5">
+        <span class="text-muted text-sm">Cases Total:
+            <button type="button" class="btn btn-sm bg-dark bg-opacity-20 bg-opacity-100-hover text-dark text-white-hover">2</button> =
+            <button type="button" class="btn btn-sm bg-success bg-opacity-20 bg-opacity-100-hover text-success text-white-hover">1</button> +
+            <button type="button" class="btn btn-sm bg-warning bg-opacity-20 bg-opacity-100-hover text-warning text-white-hover">0</button> +
+            <button type="button" class="btn btn-sm bg-danger bg-opacity-20 bg-opacity-100-hover text-danger text-white-hover">1</button> +
+            <button type="button" class="btn btn-sm bg-secondary bg-opacity-20 bg-opacity-100-hover text-secondary text-white-hover">0</button>
+        </span>
+    </div>
+</div>
+<div style="height:120px"></div>
+    
+
+
+<footer class="footer" style="height: 50px; position: fixed; width: 100%">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                XTestRunner 1.4.2; 2022 © 重定向科技 - http://itest.info
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>

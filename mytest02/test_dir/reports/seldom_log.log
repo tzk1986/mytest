@@ -1,0 +1,902 @@
+[ 2022-05-26 15:24:59 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_username"]. 
+[ 2022-05-26 15:25:00 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 15:25:00 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_password"]. 
+[ 2022-05-26 15:25:01 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 15:25:01 logging.py | INFO | 🔍 Find element: xpath=//*[@id="login-form"]/div[3]/input. 
+[ 2022-05-26 15:25:03 logging.py | INFO | ✅ click().
+[ 2022-05-26 15:25:03 logging.py | INFO | 🔍 Find element: xpath=//*[@id="user-tools"]/a[3]. 
+[ 2022-05-26 15:25:04 logging.py | INFO | ✅ text: 注销.
+[ 2022-05-26 15:26:17 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_username"]. 
+[ 2022-05-26 15:26:18 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 15:26:18 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_password"]. 
+[ 2022-05-26 15:26:19 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 15:26:19 logging.py | INFO | 🔍 Find element: xpath=//*[@id="login-form"]/div[3]/input. 
+[ 2022-05-26 15:26:20 logging.py | INFO | ✅ click().
+[ 2022-05-26 15:26:20 logging.py | INFO | 🔍 Find element: xpath=//*[@id="user-tools"]/a[3]. 
+[ 2022-05-26 15:26:21 logging.py | INFO | ✅ text: 注销.
+[ 2022-05-26 15:32:40 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_username"]. 
+[ 2022-05-26 15:32:41 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 15:32:41 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_password"]. 
+[ 2022-05-26 15:32:42 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 15:32:42 logging.py | INFO | 🔍 Find element: xpath=//*[@id="login-form"]/div[3]/input. 
+[ 2022-05-26 15:32:43 logging.py | INFO | ✅ click().
+[ 2022-05-26 15:32:43 logging.py | INFO | 🔍 Find element: xpath=//*[@id="user-tools"]/a[3]. 
+[ 2022-05-26 15:32:44 logging.py | INFO | ✅ text: 注销.
+[ 2022-05-26 15:34:42 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_username"]. 
+[ 2022-05-26 15:34:43 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 15:34:43 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_password"]. 
+[ 2022-05-26 15:34:44 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 15:34:44 logging.py | INFO | 🔍 Find element: xpath=//*[@id="login-form"]/div[3]/input. 
+[ 2022-05-26 15:34:45 logging.py | INFO | ✅ click().
+[ 2022-05-26 15:34:45 logging.py | INFO | 🔍 Find element: xpath=//*[@id="user-tools"]/a[3]. 
+[ 2022-05-26 15:34:46 logging.py | INFO | ✅ text: 注销.
+[ 2022-05-26 16:31:52 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_username"]. 
+[ 2022-05-26 16:31:53 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 16:31:53 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_password"]. 
+[ 2022-05-26 16:31:54 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 16:31:54 logging.py | INFO | 🔍 Find element: xpath=//*[@id="login-form"]/div[3]/input. 
+[ 2022-05-26 16:31:56 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:32:19 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_username"]. 
+[ 2022-05-26 16:32:20 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 16:32:20 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_password"]. 
+[ 2022-05-26 16:32:21 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 16:32:21 logging.py | INFO | 🔍 Find element: xpath=//*[@id="login-form"]/div[3]/input. 
+[ 2022-05-26 16:32:22 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:32:23 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_project_name"]. 
+[ 2022-05-26 16:32:24 logging.py | INFO | ✅ send_keys('test').
+[ 2022-05-26 16:32:24 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_project_type"]. 
+[ 2022-05-26 16:32:25 logging.py | INFO | ✅ select_by_index('2').
+[ 2022-05-26 16:32:25 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_project_version"]. 
+[ 2022-05-26 16:32:26 logging.py | INFO | ✅ send_keys('第一版').
+[ 2022-05-26 16:32:26 logging.py | INFO | 🔍 Find element: xpath=//*[@id="project_form"]/div/div/input[1]. 
+[ 2022-05-26 16:32:27 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:34:03 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_username"]. 
+[ 2022-05-26 16:34:04 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 16:34:04 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_password"]. 
+[ 2022-05-26 16:34:05 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 16:34:05 logging.py | INFO | 🔍 Find element: xpath=//*[@id="login-form"]/div[3]/input. 
+[ 2022-05-26 16:34:06 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:34:09 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_username"]. 
+[ 2022-05-26 16:34:10 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 16:34:10 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_password"]. 
+[ 2022-05-26 16:34:11 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 16:34:11 logging.py | INFO | 🔍 Find element: xpath=//*[@id="login-form"]/div[3]/input. 
+[ 2022-05-26 16:34:12 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:34:12 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_project_name"]. 
+[ 2022-05-26 16:34:13 logging.py | INFO | ✅ send_keys('test').
+[ 2022-05-26 16:34:13 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_project_type"]. 
+[ 2022-05-26 16:34:14 logging.py | INFO | ✅ select_by_index('2').
+[ 2022-05-26 16:34:14 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_project_version"]. 
+[ 2022-05-26 16:34:15 logging.py | INFO | ✅ send_keys('第一版').
+[ 2022-05-26 16:34:15 logging.py | INFO | 🔍 Find element: xpath=//*[@id="project_form"]/div/div/input[1]. 
+[ 2022-05-26 16:34:16 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:37:24 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_username"]. 
+[ 2022-05-26 16:37:25 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 16:37:25 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_password"]. 
+[ 2022-05-26 16:37:26 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 16:37:26 logging.py | INFO | 🔍 Find element: xpath=//*[@id="login-form"]/div[3]/input. 
+[ 2022-05-26 16:37:28 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:37:28 logging.py | INFO | 🔍 Find element: xpath=//*[@id="user-tools"]/a[3]. 
+[ 2022-05-26 16:37:29 logging.py | INFO | ✅ text: 注销.
+[ 2022-05-26 16:37:31 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_username"]. 
+[ 2022-05-26 16:37:32 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 16:37:32 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_password"]. 
+[ 2022-05-26 16:37:33 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 16:37:33 logging.py | INFO | 🔍 Find element: xpath=//*[@id="login-form"]/div[3]/input. 
+[ 2022-05-26 16:37:34 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:37:34 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_project_name"]. 
+[ 2022-05-26 16:37:35 logging.py | INFO | ✅ send_keys('test').
+[ 2022-05-26 16:37:35 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_project_type"]. 
+[ 2022-05-26 16:37:36 logging.py | INFO | ✅ select_by_index('2').
+[ 2022-05-26 16:37:36 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_project_version"]. 
+[ 2022-05-26 16:37:37 logging.py | INFO | ✅ send_keys('第一版').
+[ 2022-05-26 16:37:37 logging.py | INFO | 🔍 Find element: xpath=//*[@id="project_form"]/div/div/input[1]. 
+[ 2022-05-26 16:37:38 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:38:04 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_username"]. 
+[ 2022-05-26 16:38:05 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 16:38:05 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_password"]. 
+[ 2022-05-26 16:38:06 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 16:38:06 logging.py | INFO | 🔍 Find element: xpath=//*[@id="login-form"]/div[3]/input. 
+[ 2022-05-26 16:38:07 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:38:07 logging.py | INFO | 🔍 Find element: xpath=//*[@id="user-tools"]/a[3]. 
+[ 2022-05-26 16:38:08 logging.py | INFO | ✅ text: 注销.
+[ 2022-05-26 16:38:10 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_username"]. 
+[ 2022-05-26 16:38:11 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 16:38:11 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_password"]. 
+[ 2022-05-26 16:38:12 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 16:38:12 logging.py | INFO | 🔍 Find element: xpath=//*[@id="login-form"]/div[3]/input. 
+[ 2022-05-26 16:38:14 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:38:14 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_project_name"]. 
+[ 2022-05-26 16:38:15 logging.py | INFO | ✅ send_keys('test').
+[ 2022-05-26 16:38:15 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_project_type"]. 
+[ 2022-05-26 16:38:16 logging.py | INFO | ✅ select_by_index('2').
+[ 2022-05-26 16:38:16 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_project_version"]. 
+[ 2022-05-26 16:38:17 logging.py | INFO | ✅ send_keys('第一版').
+[ 2022-05-26 16:38:17 logging.py | INFO | 🔍 Find element: xpath=//*[@id="project_form"]/div/div/input[1]. 
+[ 2022-05-26 16:38:18 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:48:07 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_username"]. 
+[ 2022-05-26 16:48:08 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 16:48:08 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_password"]. 
+[ 2022-05-26 16:48:09 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 16:48:09 logging.py | INFO | 🔍 Find element: xpath=//*[@id="login-form"]/div[3]/input. 
+[ 2022-05-26 16:48:10 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:48:11 logging.py | INFO | 🔍 Find element: xpath=//*[@id="user-tools"]/a[3]. 
+[ 2022-05-26 16:48:11 logging.py | INFO | ✅ text: 注销.
+[ 2022-05-26 16:48:14 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_username"]. 
+[ 2022-05-26 16:48:15 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 16:48:15 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_password"]. 
+[ 2022-05-26 16:48:16 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 16:48:16 logging.py | INFO | 🔍 Find element: xpath=//*[@id="login-form"]/div[3]/input. 
+[ 2022-05-26 16:48:17 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:48:17 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_project_name"]. 
+[ 2022-05-26 16:48:18 logging.py | INFO | ✅ send_keys('test').
+[ 2022-05-26 16:48:18 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_project_type"]. 
+[ 2022-05-26 16:48:19 logging.py | INFO | ✅ select_by_index('2').
+[ 2022-05-26 16:48:19 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_project_version"]. 
+[ 2022-05-26 16:48:20 logging.py | INFO | ✅ send_keys('第一版').
+[ 2022-05-26 16:48:20 logging.py | INFO | 🔍 Find element: xpath=//*[@id="project_form"]/div/div/input[1]. 
+[ 2022-05-26 16:48:21 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:48:21 logging.py | INFO | 🔍 Find element: xpath=//*[@id="changelist-filter"]/ul/li[1]/a. 
+[ 2022-05-26 16:48:22 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:48:22 logging.py | INFO | 🔍 Find element: xpath=//*[@id="searchbar"]. 
+[ 2022-05-26 16:48:23 logging.py | INFO | ✅ send_keys('test').
+[ 2022-05-26 16:48:23 logging.py | INFO | 🔍 Find element: xpath=//*[@id="changelist-search"]/div/input[2]. 
+[ 2022-05-26 16:48:25 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:48:25 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_form-0-project_version"]. 
+[ 2022-05-26 16:48:26 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:48:26 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_form-0-project_version"]. 
+[ 2022-05-26 16:48:27 logging.py | INFO | ✅ send_keys('第二版').
+[ 2022-05-26 16:48:27 logging.py | INFO | 🔍 Find element: xpath=//*[@id="changelist-form"]/p/input. 
+[ 2022-05-26 16:48:28 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:48:28 logging.py | INFO | 🔍 Find element: xpath=//*[@id="result_list"]/tbody/tr[1]/td[1]/input. 
+[ 2022-05-26 16:48:29 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:48:29 logging.py | INFO | 🔍 Find element: xpath=//*[@id="changelist-form"]/div[2]/label/select. 
+[ 2022-05-26 16:48:30 logging.py | INFO | ✅ select_by_value('delete_selected').
+[ 2022-05-26 16:48:30 logging.py | INFO | 🔍 Find element: xpath=//*[@id="changelist-form"]/div[2]/button. 
+[ 2022-05-26 16:48:31 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:48:31 logging.py | INFO | 🔍 Find element: xpath=//*[@id="content"]/form/div/input[4]. 
+[ 2022-05-26 16:48:32 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:52:05 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_username"]. 
+[ 2022-05-26 16:52:06 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 16:52:06 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_password"]. 
+[ 2022-05-26 16:52:07 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 16:52:07 logging.py | INFO | 🔍 Find element: xpath=//*[@id="login-form"]/div[3]/input. 
+[ 2022-05-26 16:52:08 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:52:08 logging.py | INFO | 🔍 Find element: xpath=//*[@id="user-tools"]/a[3]. 
+[ 2022-05-26 16:52:09 logging.py | INFO | ✅ text: 注销.
+[ 2022-05-26 16:52:11 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_username"]. 
+[ 2022-05-26 16:52:12 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 16:52:12 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_password"]. 
+[ 2022-05-26 16:52:13 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 16:52:13 logging.py | INFO | 🔍 Find element: xpath=//*[@id="login-form"]/div[3]/input. 
+[ 2022-05-26 16:52:15 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:52:15 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_project_name"]. 
+[ 2022-05-26 16:52:16 logging.py | INFO | ✅ send_keys('test').
+[ 2022-05-26 16:52:16 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_project_type"]. 
+[ 2022-05-26 16:52:17 logging.py | INFO | ✅ select_by_index('2').
+[ 2022-05-26 16:52:17 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_project_version"]. 
+[ 2022-05-26 16:52:18 logging.py | INFO | ✅ send_keys('第一版').
+[ 2022-05-26 16:52:18 logging.py | INFO | 🔍 Find element: xpath=//*[@id="project_form"]/div/div/input[1]. 
+[ 2022-05-26 16:52:19 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:52:19 logging.py | INFO | 🔍 Find element: xpath=//*[@id="changelist-filter"]/ul/li[1]/a. 
+[ 2022-05-26 16:52:20 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:52:20 logging.py | INFO | 🔍 Find element: xpath=//*[@id="searchbar"]. 
+[ 2022-05-26 16:52:21 logging.py | INFO | ✅ send_keys('test').
+[ 2022-05-26 16:52:21 logging.py | INFO | 🔍 Find element: xpath=//*[@id="changelist-search"]/div/input[2]. 
+[ 2022-05-26 16:52:22 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:52:22 logging.py | INFO | ✅ clear.
+[ 2022-05-26 16:52:22 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_form-0-project_version"]. 
+[ 2022-05-26 16:52:23 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_form-0-project_version"]. 
+[ 2022-05-26 16:52:24 logging.py | INFO | ✅ send_keys('第二版').
+[ 2022-05-26 16:52:24 logging.py | INFO | 🔍 Find element: xpath=//*[@id="changelist-form"]/p/input. 
+[ 2022-05-26 16:52:25 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:52:25 logging.py | INFO | 🔍 Find element: xpath=//*[@id="result_list"]/tbody/tr[1]/td[1]/input. 
+[ 2022-05-26 16:52:26 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:52:26 logging.py | INFO | 🔍 Find element: xpath=//*[@id="changelist-form"]/div[2]/label/select. 
+[ 2022-05-26 16:52:27 logging.py | INFO | ✅ select_by_value('delete_selected').
+[ 2022-05-26 16:52:27 logging.py | INFO | 🔍 Find element: xpath=//*[@id="changelist-form"]/div[2]/button. 
+[ 2022-05-26 16:52:28 logging.py | INFO | ✅ click().
+[ 2022-05-26 16:52:28 logging.py | INFO | 🔍 Find element: xpath=//*[@id="content"]/form/div/input[4]. 
+[ 2022-05-26 16:52:29 logging.py | INFO | ✅ click().
+[ 2022-05-26 17:00:43 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 17:00:48 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-26 17:00:48 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-26 17:00:49 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-26 17:29:19 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 17:29:23 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-26 17:29:24 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-26 17:29:24 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-26 17:29:25 log.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+[ 2022-05-26 17:29:26 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_name"]  -> input '测试第一版'.
+[ 2022-05-26 17:29:26 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_type"]  -> select option.
+[ 2022-05-26 17:29:27 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_version"]  -> input '第一版'.
+[ 2022-05-26 17:29:28 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="project_form"]/div/div/input[1]  -> click.
+[ 2022-05-26 17:29:28 log.py | INFO | ⌛️ implicitly wait: 3s.
+[ 2022-05-26 17:29:28 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 17:31:59 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 17:32:03 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-26 17:32:04 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-26 17:32:05 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-26 17:32:05 log.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+[ 2022-05-26 17:32:06 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_name"]  -> input '测试第一版'.
+[ 2022-05-26 17:32:07 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_type"]  -> select option.
+[ 2022-05-26 17:32:07 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_version"]  -> input '第一版'.
+[ 2022-05-26 17:32:08 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="project_form"]/div/div/input[1]  -> click.
+[ 2022-05-26 17:32:08 log.py | INFO | ⌛️ implicitly wait: 3s.
+[ 2022-05-26 17:32:26 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 17:32:29 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-26 17:32:30 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-26 17:32:31 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-26 17:32:31 log.py | INFO | 🔄️ refresh page.
+[ 2022-05-26 17:32:31 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 17:32:32 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-26 17:32:33 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-26 17:32:34 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-26 17:32:53 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 17:32:57 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-26 17:32:58 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-26 17:32:58 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-26 17:32:59 log.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+[ 2022-05-26 17:33:00 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_name"]  -> input '测试第一版'.
+[ 2022-05-26 17:33:00 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_type"]  -> select option.
+[ 2022-05-26 17:33:01 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_version"]  -> input '第一版'.
+[ 2022-05-26 17:33:02 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="project_form"]/div/div/input[1]  -> click.
+[ 2022-05-26 17:33:02 log.py | INFO | ⌛️ implicitly wait: 3s.
+[ 2022-05-26 17:33:02 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 17:33:25 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 17:33:29 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-26 17:33:29 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-26 17:33:30 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-26 17:33:30 log.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+[ 2022-05-26 17:33:31 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_name"]  -> input '测试第一版'.
+[ 2022-05-26 17:33:32 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_type"]  -> select option.
+[ 2022-05-26 17:33:33 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_version"]  -> input '第一版'.
+[ 2022-05-26 17:33:34 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="project_form"]/div/div/input[1]  -> click.
+[ 2022-05-26 17:33:34 log.py | INFO | ⌛️ implicitly wait: 3s.
+[ 2022-05-26 17:33:34 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 17:34:30 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 17:34:34 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-26 17:34:35 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-26 17:34:36 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-26 17:34:36 log.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+[ 2022-05-26 17:34:37 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_name"]  -> input '测试第一版'.
+[ 2022-05-26 17:34:38 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_type"]  -> select option.
+[ 2022-05-26 17:34:39 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_version"]  -> input '第一版'.
+[ 2022-05-26 17:34:39 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="project_form"]/div/div/input[1]  -> click.
+[ 2022-05-26 17:34:40 log.py | INFO | ⌛️ implicitly wait: 3s.
+[ 2022-05-26 17:34:40 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 17:36:33 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 17:36:37 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-26 17:36:37 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-26 17:36:38 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-26 17:36:39 log.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+[ 2022-05-26 17:36:39 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_name"]  -> input '测试第一版'.
+[ 2022-05-26 17:36:40 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_type"]  -> select option.
+[ 2022-05-26 17:36:41 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_version"]  -> input '第一版'.
+[ 2022-05-26 17:36:42 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="project_form"]/div/div/input[1]  -> click.
+[ 2022-05-26 17:36:42 log.py | INFO | ⌛️ implicitly wait: 3s.
+[ 2022-05-26 17:36:42 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 17:36:51 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 17:36:54 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-26 17:36:55 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-26 17:36:55 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-26 17:36:56 log.py | INFO | 🔄️ refresh page.
+[ 2022-05-26 17:36:56 log.py | INFO | ⌛️ implicitly wait: 3s.
+[ 2022-05-26 17:36:56 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 17:36:57 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-26 17:36:57 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-26 17:36:58 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-26 18:05:14 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 18:05:18 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-26 18:05:19 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-26 18:05:19 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-26 18:05:20 log.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+[ 2022-05-26 18:05:21 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_name"]  -> input '测试第一版'.
+[ 2022-05-26 18:05:21 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_type"]  -> select option.
+[ 2022-05-26 18:05:22 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_version"]  -> input '第一版'.
+[ 2022-05-26 18:05:23 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="project_form"]/div/div/input[1]  -> click.
+[ 2022-05-26 18:05:23 log.py | INFO | ⌛️ implicitly wait: 3s.
+[ 2022-05-26 18:05:24 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-filter"]/ul/li[1]/a  -> click.
+[ 2022-05-26 18:05:25 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="searchbar"]  -> input '测试第一版'.
+[ 2022-05-26 18:05:26 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-search"]/div/input[2]  -> click.
+[ 2022-05-26 18:05:27 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> clear input.
+[ 2022-05-26 18:05:27 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> input '第二版'.
+[ 2022-05-26 18:05:28 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/p/input  -> click.
+[ 2022-05-26 18:05:29 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="result_list"]/tbody/tr[1]/td[1]/input  -> click.
+[ 2022-05-26 18:05:30 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/label/select  -> select option.
+[ 2022-05-26 18:05:31 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/button  -> click.
+[ 2022-05-26 18:05:31 log.py | INFO | ⌛️ implicitly wait: 5s.
+[ 2022-05-26 18:05:31 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="content"]/form/div/input[4]  -> click.
+[ 2022-05-26 18:05:32 log.py | INFO | ⌛️ implicitly wait: 5s.
+[ 2022-05-26 18:07:52 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 18:07:56 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-26 18:07:56 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-26 18:07:57 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-26 18:07:57 log.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+[ 2022-05-26 18:07:58 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_name"]  -> input '测试第一版'.
+[ 2022-05-26 18:07:59 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_type"]  -> select option.
+[ 2022-05-26 18:08:00 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_version"]  -> input '第一版'.
+[ 2022-05-26 18:08:01 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="project_form"]/div/div/input[1]  -> click.
+[ 2022-05-26 18:08:01 log.py | INFO | ⌛️ implicitly wait: 3s.
+[ 2022-05-26 18:08:02 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-filter"]/ul/li[1]/a  -> click.
+[ 2022-05-26 18:08:03 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="searchbar"]  -> input '测试第一版'.
+[ 2022-05-26 18:08:03 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-search"]/div/input[2]  -> click.
+[ 2022-05-26 18:08:04 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> clear input.
+[ 2022-05-26 18:08:05 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> input '第二版'.
+[ 2022-05-26 18:08:06 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/p/input  -> click.
+[ 2022-05-26 18:08:07 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="result_list"]/tbody/tr[1]/td[1]/input  -> click.
+[ 2022-05-26 18:08:08 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/label/select  -> select option.
+[ 2022-05-26 18:08:08 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/button  -> click.
+[ 2022-05-26 18:08:08 log.py | INFO | ⌛️ implicitly wait: 5s.
+[ 2022-05-26 18:08:09 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="content"]/form/div/input[4]  -> click.
+[ 2022-05-26 18:08:09 log.py | INFO | 📷️  screenshot -> HTML report.
+[ 2022-05-26 18:08:10 log.py | INFO | ⌛️ implicitly wait: 5s.
+[ 2022-05-26 18:09:59 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 18:10:02 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-26 18:10:03 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-26 18:10:04 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-26 18:10:04 log.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+[ 2022-05-26 18:10:05 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_name"]  -> input '测试第一版'.
+[ 2022-05-26 18:10:06 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_type"]  -> select option.
+[ 2022-05-26 18:10:06 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_version"]  -> input '第一版'.
+[ 2022-05-26 18:10:07 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="project_form"]/div/div/input[1]  -> click.
+[ 2022-05-26 18:10:07 log.py | INFO | ⌛️ implicitly wait: 3s.
+[ 2022-05-26 18:10:08 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-filter"]/ul/li[1]/a  -> click.
+[ 2022-05-26 18:10:09 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="searchbar"]  -> input '测试第一版'.
+[ 2022-05-26 18:10:10 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-search"]/div/input[2]  -> click.
+[ 2022-05-26 18:10:11 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> clear input.
+[ 2022-05-26 18:10:12 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> input '第二版'.
+[ 2022-05-26 18:10:12 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/p/input  -> click.
+[ 2022-05-26 18:10:13 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="result_list"]/tbody/tr[1]/td[1]/input  -> click.
+[ 2022-05-26 18:10:14 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/label/select  -> select option.
+[ 2022-05-26 18:10:15 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/button  -> click.
+[ 2022-05-26 18:10:15 log.py | INFO | ⌛️ implicitly wait: 5s.
+[ 2022-05-26 18:10:16 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="content"]/form/div/input[4]  -> click.
+[ 2022-05-26 18:10:16 log.py | INFO | 📷️  screenshot -> HTML report.
+[ 2022-05-26 18:10:16 log.py | INFO | ⌛️ implicitly wait: 5s.
+[ 2022-05-26 18:12:12 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 18:12:15 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-26 18:12:16 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-26 18:12:17 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-26 18:12:17 log.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+[ 2022-05-26 18:12:18 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_name"]  -> input '测试第一版'.
+[ 2022-05-26 18:12:18 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_type"]  -> select option.
+[ 2022-05-26 18:12:19 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_version"]  -> input '第一版'.
+[ 2022-05-26 18:12:20 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="project_form"]/div/div/input[1]  -> click.
+[ 2022-05-26 18:12:20 log.py | INFO | ⌛️ implicitly wait: 3s.
+[ 2022-05-26 18:12:21 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-filter"]/ul/li[1]/a  -> click.
+[ 2022-05-26 18:12:22 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="searchbar"]  -> input '测试第一版'.
+[ 2022-05-26 18:12:23 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-search"]/div/input[2]  -> click.
+[ 2022-05-26 18:12:24 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> clear input.
+[ 2022-05-26 18:12:24 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> input '第二版'.
+[ 2022-05-26 18:12:25 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/p/input  -> click.
+[ 2022-05-26 18:12:26 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="result_list"]/tbody/tr[1]/td[1]/input  -> click.
+[ 2022-05-26 18:12:27 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/label/select  -> select option.
+[ 2022-05-26 18:12:28 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/button  -> click.
+[ 2022-05-26 18:12:28 log.py | INFO | ⌛️ implicitly wait: 5s.
+[ 2022-05-26 18:12:29 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="content"]/form/div/input[4]  -> click.
+[ 2022-05-26 18:12:29 log.py | INFO | 📷️  screenshot -> HTML report.
+[ 2022-05-26 18:12:29 log.py | INFO | ⌛️ implicitly wait: 5s.
+[ 2022-05-26 18:19:28 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 18:19:32 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-26 18:19:33 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-26 18:19:34 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-26 18:19:34 log.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+[ 2022-05-26 18:19:35 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_name"]  -> input '测试第一版'.
+[ 2022-05-26 18:19:36 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_type"]  -> select option.
+[ 2022-05-26 18:19:36 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_version"]  -> input '第一版'.
+[ 2022-05-26 18:19:37 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="project_form"]/div/div/input[1]  -> click.
+[ 2022-05-26 18:19:37 log.py | INFO | ⌛️ implicitly wait: 3s.
+[ 2022-05-26 18:19:38 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-filter"]/ul/li[1]/a  -> click.
+[ 2022-05-26 18:19:39 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="searchbar"]  -> input '测试第一版'.
+[ 2022-05-26 18:19:40 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-search"]/div/input[2]  -> click.
+[ 2022-05-26 18:19:41 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> clear input.
+[ 2022-05-26 18:19:42 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> input '第二版'.
+[ 2022-05-26 18:19:42 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/p/input  -> click.
+[ 2022-05-26 18:19:43 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="result_list"]/tbody/tr[1]/td[1]/input  -> click.
+[ 2022-05-26 18:19:44 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/label/select  -> select option.
+[ 2022-05-26 18:19:45 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/button  -> click.
+[ 2022-05-26 18:19:45 log.py | INFO | ⌛️ implicitly wait: 5s.
+[ 2022-05-26 18:19:46 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="content"]/form/div/input[4]  -> click.
+[ 2022-05-26 18:19:46 log.py | INFO | 📷️  screenshot -> HTML report.
+[ 2022-05-26 18:19:46 log.py | INFO | ⌛️ implicitly wait: 5s.
+[ 2022-05-26 18:22:56 log.py | INFO | 📖 https://www.baidu.com
+[ 2022-05-26 18:23:01 log.py | INFO | ✅ Find 1 element: id=kw  -> input 'seldom'.
+[ 2022-05-26 18:23:02 log.py | INFO | ✅ Find 1 element: css selector=#su  -> click.
+[ 2022-05-26 18:23:13 log.py | WARNING | ❌ assert fail: seldom_百度搜索.
+[ 2022-05-26 18:23:13 log.py | INFO | 🔖 Test Case: None
+[ 2022-05-26 18:23:13 log.py | INFO | 📖 https://www.baidu.com
+[ 2022-05-26 18:23:14 log.py | INFO | 🔍 find Find 1 element: css selector=#kw .
+[ 2022-05-26 18:23:14 log.py | INFO | ✅ input 'seldom'.
+[ 2022-05-26 18:23:15 log.py | INFO | 🔍 find Find 1 element: css selector=#su .
+[ 2022-05-26 18:23:15 log.py | INFO | ✅ click.
+[ 2022-05-26 18:23:16 log.py | INFO | 👀 assert title: seldom_百度搜索.
+[ 2022-05-26 18:23:22 log.py | INFO | 📖 https://www.baidu.com
+[ 2022-05-26 18:23:26 log.py | INFO | ✅ Find 1 element: id=kw  -> input 'seldom'.
+[ 2022-05-26 18:23:27 log.py | INFO | ✅ Find 1 element: css selector=#su  -> click.
+[ 2022-05-26 18:23:38 log.py | WARNING | ❌ assert fail: seldom_百度搜索.
+[ 2022-05-26 18:23:38 log.py | INFO | 🔖 Test Case: None
+[ 2022-05-26 18:23:38 log.py | INFO | 📖 https://www.baidu.com
+[ 2022-05-26 18:23:40 log.py | INFO | 🔍 find Find 1 element: css selector=#kw .
+[ 2022-05-26 18:23:40 log.py | INFO | ✅ input 'seldom'.
+[ 2022-05-26 18:23:40 log.py | INFO | 🔍 find Find 1 element: css selector=#su .
+[ 2022-05-26 18:23:40 log.py | INFO | ✅ click.
+[ 2022-05-26 18:23:42 log.py | INFO | 👀 assert title: seldom_百度搜索.
+[ 2022-05-26 19:04:25 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_username"]. 
+[ 2022-05-26 19:04:26 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 19:04:26 logging.py | INFO | 🔍 Find element: xpath=//*[@id="id_password"]. 
+[ 2022-05-26 19:04:27 logging.py | INFO | ✅ send_keys('admin').
+[ 2022-05-26 19:04:27 logging.py | INFO | 🔍 Find element: xpath=//*[@id="login-form"]/div[3]/input. 
+[ 2022-05-26 19:04:28 logging.py | INFO | ✅ click().
+[ 2022-05-26 19:04:28 logging.py | INFO | 🔍 Find element: xpath=//*[@id="user-tools"]/a[3]. 
+[ 2022-05-26 19:04:29 logging.py | INFO | ✅ text: 注销.
+[ 2022-05-26 19:57:31 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 19:57:35 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-26 19:57:36 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-26 19:57:37 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-26 19:57:37 log.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+[ 2022-05-26 19:57:38 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_name"]  -> input '测试第一版'.
+[ 2022-05-26 19:57:39 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_type"]  -> select option.
+[ 2022-05-26 19:57:39 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_version"]  -> input '第一版'.
+[ 2022-05-26 19:57:40 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="project_form"]/div/div/input[1]  -> click.
+[ 2022-05-26 19:57:40 log.py | INFO | ⌛️ implicitly wait: 3s.
+[ 2022-05-26 19:57:41 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-filter"]/ul/li[1]/a  -> click.
+[ 2022-05-26 19:57:42 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="searchbar"]  -> input '测试第一版'.
+[ 2022-05-26 19:57:43 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-search"]/div/input[2]  -> click.
+[ 2022-05-26 19:57:44 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> clear input.
+[ 2022-05-26 19:57:45 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> input '第二版'.
+[ 2022-05-26 19:57:46 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/p/input  -> click.
+[ 2022-05-26 19:57:46 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="result_list"]/tbody/tr[1]/td[1]/input  -> click.
+[ 2022-05-26 19:57:47 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/label/select  -> select option.
+[ 2022-05-26 19:57:48 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/button  -> click.
+[ 2022-05-26 19:57:48 log.py | INFO | ⌛️ implicitly wait: 5s.
+[ 2022-05-26 19:57:49 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="content"]/form/div/input[4]  -> click.
+[ 2022-05-26 19:57:49 log.py | INFO | 📷️  screenshot -> HTML report.
+[ 2022-05-26 19:57:50 log.py | INFO | ⌛️ implicitly wait: 5s.
+[ 2022-05-26 19:57:50 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 19:58:59 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 19:59:03 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-26 19:59:04 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-26 19:59:04 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-26 19:59:05 log.py | INFO | 🔄️ refresh page.
+[ 2022-05-26 19:59:05 log.py | INFO | ⌛️ implicitly wait: 3s.
+[ 2022-05-26 19:59:05 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 19:59:06 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-26 19:59:06 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-26 19:59:07 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-26 20:01:26 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 20:01:30 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-26 20:01:31 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-26 20:01:31 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-26 20:01:32 log.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+[ 2022-05-26 20:01:33 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_name"]  -> input '测试第一版'.
+[ 2022-05-26 20:01:33 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_type"]  -> select option.
+[ 2022-05-26 20:01:34 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_version"]  -> input '第一版'.
+[ 2022-05-26 20:01:35 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="project_form"]/div/div/input[1]  -> click.
+[ 2022-05-26 20:01:35 log.py | INFO | ⌛️ implicitly wait: 3s.
+[ 2022-05-26 20:01:35 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 20:01:35 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 20:01:35 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 20:05:30 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 20:05:33 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-26 20:05:34 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-26 20:05:35 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-26 20:05:35 log.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+[ 2022-05-26 20:05:36 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_name"]  -> input '测试第一版'.
+[ 2022-05-26 20:05:37 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_type"]  -> select option.
+[ 2022-05-26 20:05:38 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_version"]  -> input '第一版'.
+[ 2022-05-26 20:05:38 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="project_form"]/div/div/input[1]  -> click.
+[ 2022-05-26 20:05:39 log.py | INFO | ⌛️ implicitly wait: 3s.
+[ 2022-05-26 20:05:39 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 20:05:39 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 20:05:39 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 20:08:45 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 20:08:49 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-26 20:08:50 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-26 20:08:50 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-26 20:08:51 log.py | INFO | 📖 http://127.0.0.1:8000/admin/project/port/add/
+[ 2022-05-26 20:08:51 log.py | INFO | 👀 assertIn title: 增加 port | 后台.
+[ 2022-05-26 20:08:51 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 20:14:39 log.py | INFO | 📖 https://www.baidu.com
+[ 2022-05-26 20:14:45 log.py | INFO | ✅ Find 1 element: id=kw  -> input 'seldom'.
+[ 2022-05-26 20:14:46 log.py | INFO | ✅ Find 1 element: css selector=#su  -> click.
+[ 2022-05-26 20:14:57 log.py | WARNING | ❌ assert fail: seldom_百度搜索.
+[ 2022-05-26 20:14:59 log.py | INFO | 🔖 Test Case: None
+[ 2022-05-26 20:14:59 log.py | INFO | 📖 https://www.baidu.com
+[ 2022-05-26 20:15:00 log.py | INFO | 🔍 find Find 1 element: css selector=#kw .
+[ 2022-05-26 20:15:00 log.py | INFO | ✅ input 'seldom'.
+[ 2022-05-26 20:15:00 log.py | INFO | 🔍 find Find 1 element: css selector=#su .
+[ 2022-05-26 20:15:00 log.py | INFO | ✅ click.
+[ 2022-05-26 20:15:02 log.py | INFO | 👀 assert title: seldom_百度搜索.
+[ 2022-05-26 20:16:25 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 20:16:29 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-26 20:16:30 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-26 20:16:31 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-26 20:16:31 log.py | INFO | 📖 http://127.0.0.1:8000/admin/project/port/add/
+[ 2022-05-26 20:16:31 log.py | INFO | 👀 assertIn title: 增加 port | 后台.
+[ 2022-05-26 20:16:31 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 20:21:56 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 20:22:00 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-26 20:22:01 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-26 20:22:01 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-26 20:22:02 log.py | INFO | 📖 http://127.0.0.1:8000/admin/project/port/add/
+[ 2022-05-26 20:22:02 log.py | INFO | 👀 assertIn title: 增加 port | 后台.
+[ 2022-05-26 20:22:02 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-27 10:39:53 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-27 10:39:56 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-27 10:39:57 log.py | SUCCESS | A run the test in debug mode without generating HTML report!
+[ 2022-05-27 10:40:47 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-27 10:40:50 log.py | SUCCESS | A run the test in debug mode without generating HTML report!
+[ 2022-05-27 10:41:16 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-27 10:41:20 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-27 10:41:21 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-27 10:41:23 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-27 10:41:23 log.py | INFO | 📖 http://127.0.0.1:8000/admin/project/port/add/
+[ 2022-05-27 10:41:23 log.py | INFO | 👀 assertIn title: 增加 port | 后台.
+[ 2022-05-27 10:41:23 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-27 10:41:33 log.py | SUCCESS | A run the test in debug mode without generating HTML report!
+[ 2022-05-27 10:42:29 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-27 10:42:33 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-27 10:42:34 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-27 10:42:35 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-27 10:42:35 log.py | INFO | 📖 http://127.0.0.1:8000/admin/project/port/add/
+[ 2022-05-27 10:42:35 log.py | INFO | 👀 assertIn title: 增加 port | 后台.
+[ 2022-05-27 10:42:35 log.py | SUCCESS | A run the test in debug mode without generating HTML report!
+[ 2022-05-27 10:48:50 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-27 10:48:54 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-27 10:48:55 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-27 10:48:56 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-27 10:48:56 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-27 10:49:07 log.py | SUCCESS | A run the test in debug mode without generating HTML report!
+[ 2022-05-27 10:49:34 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-27 10:49:38 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-27 10:49:39 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-27 10:49:40 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-27 10:49:40 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-27 10:49:50 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-27 10:50:01 log.py | SUCCESS | generated html file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/2022_05_27_10_49_34_result.html
+[ 2022-05-27 10:50:01 log.py | SUCCESS | generated log file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/seldom_log.log
+[ 2022-05-27 10:51:20 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-27 10:51:24 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-27 10:51:25 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-27 10:51:26 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-27 10:51:26 log.py | INFO | 📖 http://127.0.0.1:8000/admin/project/port/add/
+[ 2022-05-27 10:51:26 log.py | INFO | 👀 assertIn title: 增加 port | 后台.
+[ 2022-05-27 10:51:26 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-27 10:51:37 log.py | SUCCESS | generated html file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/2022_05_27_10_51_20_result.html
+[ 2022-05-27 10:51:37 log.py | SUCCESS | generated log file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/seldom_log.log
+[ 2022-05-27 10:55:26 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-27 10:55:30 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-27 10:55:31 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-27 10:55:32 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-27 10:55:32 log.py | INFO | 📖 http://127.0.0.1:8000/admin/project/port/add/
+[ 2022-05-27 10:55:33 log.py | INFO | 👀 assertIn title: 增加 port | 后台.
+[ 2022-05-27 10:55:33 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-27 10:55:43 log.py | SUCCESS | generated html file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/2022_05_27_10_55_26_result.html
+[ 2022-05-27 10:55:43 log.py | SUCCESS | generated log file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/seldom_log.log
+ 2022-05-27 10:58:03 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 10:58:07 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+ 2022-05-27 10:58:08 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+ 2022-05-27 10:58:09 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+ 2022-05-27 10:58:09 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/port/add/
+ 2022-05-27 10:58:09 case.py | INFO | 👀 assertIn title: 增加 port | 后台.
+ 2022-05-27 10:58:09 runner.py | SUCCESS | generated html file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/2022_05_27_10_58_02_result.html
+ 2022-05-27 10:58:09 runner.py | SUCCESS | generated log file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/seldom_log.log
+ 2022-05-27 10:58:37 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 10:58:41 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+ 2022-05-27 10:58:42 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+ 2022-05-27 10:58:43 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+ 2022-05-27 10:58:43 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/port/add/
+ 2022-05-27 10:58:43 case.py | INFO | 👀 assertIn title: 增加 port | 后台.
+ 2022-05-27 10:58:43 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 10:58:53 runner.py | SUCCESS | generated html file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/2022_05_27_10_58_37_result.html
+ 2022-05-27 10:58:53 runner.py | SUCCESS | generated log file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/seldom_log.log
+ 2022-05-27 10:59:16 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 10:59:20 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+ 2022-05-27 10:59:21 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+ 2022-05-27 10:59:22 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+ 2022-05-27 10:59:22 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/port/add/
+ 2022-05-27 10:59:22 case.py | INFO | 👀 assertIn title: 增加 port | 后台.
+ 2022-05-27 10:59:22 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 10:59:32 runner.py | SUCCESS | generated html file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/2022_05_27_10_59_16_result.html
+ 2022-05-27 10:59:32 runner.py | SUCCESS | generated log file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/seldom_log.log
+ 2022-05-27 11:01:37 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 11:01:41 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+ 2022-05-27 11:01:42 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+ 2022-05-27 11:01:43 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+ 2022-05-27 11:01:43 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+ 2022-05-27 11:01:44 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_name"]  -> input '测试第一版'.
+ 2022-05-27 11:01:45 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_type"]  -> select option.
+ 2022-05-27 11:01:46 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_version"]  -> input '第一版'.
+ 2022-05-27 11:01:47 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="project_form"]/div/div/input[1]  -> click.
+ 2022-05-27 11:01:47 webdriver.py | INFO | ⌛️ implicitly wait: 3s.
+ 2022-05-27 11:01:48 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-filter"]/ul/li[1]/a  -> click.
+ 2022-05-27 11:01:49 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="searchbar"]  -> input '测试第一版'.
+ 2022-05-27 11:01:50 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-search"]/div/input[2]  -> click.
+ 2022-05-27 11:01:51 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> clear input.
+ 2022-05-27 11:01:52 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> input '第二版'.
+ 2022-05-27 11:01:52 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/p/input  -> click.
+ 2022-05-27 11:01:53 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="result_list"]/tbody/tr[1]/td[1]/input  -> click.
+ 2022-05-27 11:01:54 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/label/select  -> select option.
+ 2022-05-27 11:01:55 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/button  -> click.
+ 2022-05-27 11:01:55 webdriver.py | INFO | ⌛️ implicitly wait: 5s.
+ 2022-05-27 11:01:56 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="content"]/form/div/input[4]  -> click.
+ 2022-05-27 11:01:56 webdriver.py | INFO | 📷️  screenshot -> HTML report.
+ 2022-05-27 11:01:56 webdriver.py | INFO | ⌛️ implicitly wait: 5s.
+ 2022-05-27 11:01:56 runner.py | SUCCESS | generated html file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/2022_05_27_11_01_37_result.html
+ 2022-05-27 11:01:56 runner.py | SUCCESS | generated log file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/seldom_log.log
+ 2022-05-27 11:06:14 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 11:06:19 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+ 2022-05-27 11:06:19 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+ 2022-05-27 11:06:20 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+ 2022-05-27 11:06:21 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/port/add/
+ 2022-05-27 11:06:21 case.py | INFO | 👀 assertIn title: 增加 port | 后台.
+ 2022-05-27 11:06:21 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 11:06:31 runner.py | SUCCESS | generated html file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/2022_05_27_11_06_14_result.html
+ 2022-05-27 11:06:31 runner.py | SUCCESS | generated log file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/seldom_log.log
+ 2022-05-27 11:07:06 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 11:07:10 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+ 2022-05-27 11:07:11 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+ 2022-05-27 11:07:11 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+ 2022-05-27 11:07:12 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/port/add/
+ 2022-05-27 11:07:12 case.py | INFO | 👀 assertIn title: 增加 port | 后台.
+ 2022-05-27 11:07:12 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 11:07:22 runner.py | SUCCESS | generated html file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/2022_05_27_11_07_05_result.html
+ 2022-05-27 11:07:22 runner.py | SUCCESS | generated log file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/seldom_log.log
+ 2022-05-27 11:19:07 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 11:19:12 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+ 2022-05-27 11:19:13 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+ 2022-05-27 11:19:14 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+ 2022-05-27 11:19:14 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/port/add/
+ 2022-05-27 11:19:14 case.py | INFO | 👀 assertIn title: 增加 port | 后台.
+ 2022-05-27 11:19:14 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 11:19:24 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 11:19:35 runner.py | SUCCESS | generated html file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/2022_05_27_11_19_07_result.html
+ 2022-05-27 11:19:35 runner.py | SUCCESS | generated log file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/seldom_log.log
+ 2022-05-27 11:25:28 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 11:25:36 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+ 2022-05-27 11:25:37 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+ 2022-05-27 11:25:37 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+ 2022-05-27 11:25:38 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/port/add/
+ 2022-05-27 11:25:38 case.py | INFO | 👀 assertIn title: 增加 port | 后台.
+ 2022-05-27 11:25:38 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 11:25:49 runner.py | SUCCESS | generated html file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/2022_05_27_11_25_28_result.html
+ 2022-05-27 11:25:49 runner.py | SUCCESS | generated log file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/seldom_log.log
+ 2022-05-27 11:26:47 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 11:26:51 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+ 2022-05-27 11:26:52 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+ 2022-05-27 11:26:53 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+ 2022-05-27 11:26:53 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/port/add/
+ 2022-05-27 11:26:54 case.py | INFO | 👀 assertIn title: 增加 port | 后台.
+ 2022-05-27 11:26:54 webdriver.py | INFO | 🔄️ refresh page.
+ 2022-05-27 11:26:54 webdriver.py | INFO | ⌛️ implicitly wait: 3s.
+ 2022-05-27 11:26:54 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 11:26:55 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+ 2022-05-27 11:26:55 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+ 2022-05-27 11:26:56 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+ 2022-05-27 11:26:56 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+ 2022-05-27 11:26:57 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_name"]  -> input '测试第一版'.
+ 2022-05-27 11:26:58 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_type"]  -> select option.
+ 2022-05-27 11:26:59 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_version"]  -> input '第一版'.
+ 2022-05-27 11:27:00 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="project_form"]/div/div/input[1]  -> click.
+ 2022-05-27 11:27:00 webdriver.py | INFO | ⌛️ implicitly wait: 3s.
+ 2022-05-27 11:27:01 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-filter"]/ul/li[1]/a  -> click.
+ 2022-05-27 11:27:02 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="searchbar"]  -> input '测试第一版'.
+ 2022-05-27 11:27:03 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-search"]/div/input[2]  -> click.
+ 2022-05-27 11:27:04 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> clear input.
+ 2022-05-27 11:27:05 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> input '第二版'.
+ 2022-05-27 11:27:05 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/p/input  -> click.
+ 2022-05-27 11:27:06 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="result_list"]/tbody/tr[1]/td[1]/input  -> click.
+ 2022-05-27 11:27:07 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/label/select  -> select option.
+ 2022-05-27 11:27:08 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/button  -> click.
+ 2022-05-27 11:27:08 webdriver.py | INFO | ⌛️ implicitly wait: 5s.
+ 2022-05-27 11:27:09 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="content"]/form/div/input[4]  -> click.
+ 2022-05-27 11:27:09 webdriver.py | INFO | 📷️  screenshot -> HTML report.
+ 2022-05-27 11:27:09 webdriver.py | INFO | ⌛️ implicitly wait: 5s.
+ 2022-05-27 11:27:09 runner.py | SUCCESS | generated html file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/2022_05_27_11_26_47_result.html
+ 2022-05-27 11:27:09 runner.py | SUCCESS | generated log file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/seldom_log.log
+ 2022-05-27 11:27:49 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 11:27:53 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+ 2022-05-27 11:27:54 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+ 2022-05-27 11:27:54 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+ 2022-05-27 11:27:55 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/port/add/
+ 2022-05-27 11:27:55 case.py | INFO | 👀 assertIn title: 增加 port | 后台.
+ 2022-05-27 11:27:55 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+ 2022-05-27 11:27:56 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_name"]  -> input '测试第一版'.
+ 2022-05-27 11:27:57 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_type"]  -> select option.
+ 2022-05-27 11:27:57 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_version"]  -> input '第一版'.
+ 2022-05-27 11:27:58 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="project_form"]/div/div/input[1]  -> click.
+ 2022-05-27 11:27:58 webdriver.py | INFO | ⌛️ implicitly wait: 3s.
+ 2022-05-27 11:27:59 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-filter"]/ul/li[1]/a  -> click.
+ 2022-05-27 11:28:00 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="searchbar"]  -> input '测试第一版'.
+ 2022-05-27 11:28:01 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-search"]/div/input[2]  -> click.
+ 2022-05-27 11:28:02 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> clear input.
+ 2022-05-27 11:28:03 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> input '第二版'.
+ 2022-05-27 11:28:04 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/p/input  -> click.
+ 2022-05-27 11:28:04 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="result_list"]/tbody/tr[1]/td[1]/input  -> click.
+ 2022-05-27 11:28:05 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/label/select  -> select option.
+ 2022-05-27 11:28:06 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/button  -> click.
+ 2022-05-27 11:28:06 webdriver.py | INFO | ⌛️ implicitly wait: 5s.
+ 2022-05-27 11:28:07 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="content"]/form/div/input[4]  -> click.
+ 2022-05-27 11:28:07 webdriver.py | INFO | 📷️  screenshot -> HTML report.
+ 2022-05-27 11:28:07 webdriver.py | INFO | ⌛️ implicitly wait: 5s.
+ 2022-05-27 11:28:07 runner.py | SUCCESS | generated html file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/2022_05_27_11_27_49_result.html
+ 2022-05-27 11:28:07 runner.py | SUCCESS | generated log file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/seldom_log.log
+ 2022-05-27 11:29:34 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 11:29:38 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+ 2022-05-27 11:29:38 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+ 2022-05-27 11:29:39 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+ 2022-05-27 11:29:40 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/port/add/
+ 2022-05-27 11:29:40 case.py | INFO | 👀 assertIn title: 增加 port | 后台.
+ 2022-05-27 11:29:40 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+ 2022-05-27 11:29:41 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_name"]  -> input '测试第一版'.
+ 2022-05-27 11:29:41 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_type"]  -> select option.
+ 2022-05-27 11:29:42 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_version"]  -> input '第一版'.
+ 2022-05-27 11:29:43 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="project_form"]/div/div/input[1]  -> click.
+ 2022-05-27 11:29:43 webdriver.py | INFO | ⌛️ implicitly wait: 3s.
+ 2022-05-27 11:29:44 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-filter"]/ul/li[1]/a  -> click.
+ 2022-05-27 11:29:45 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="searchbar"]  -> input '测试第一版'.
+ 2022-05-27 11:29:46 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-search"]/div/input[2]  -> click.
+ 2022-05-27 11:29:47 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> clear input.
+ 2022-05-27 11:29:47 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> input '第二版'.
+ 2022-05-27 11:29:48 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/p/input  -> click.
+ 2022-05-27 11:29:49 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="result_list"]/tbody/tr[1]/td[1]/input  -> click.
+ 2022-05-27 11:29:50 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/label/select  -> select option.
+ 2022-05-27 11:29:51 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/button  -> click.
+ 2022-05-27 11:29:51 webdriver.py | INFO | ⌛️ implicitly wait: 5s.
+ 2022-05-27 11:29:52 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="content"]/form/div/input[4]  -> click.
+ 2022-05-27 11:29:52 webdriver.py | INFO | 📷️  screenshot -> HTML report.
+ 2022-05-27 11:29:52 webdriver.py | INFO | ⌛️ implicitly wait: 5s.
+ 2022-05-27 11:29:52 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/auth/user/
+ 2022-05-27 11:29:52 runner.py | SUCCESS | generated html file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/2022_05_27_11_29_34_result.html
+ 2022-05-27 11:29:52 runner.py | SUCCESS | generated log file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/seldom_log.log
+ 2022-05-27 11:31:19 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 11:31:23 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+ 2022-05-27 11:31:24 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+ 2022-05-27 11:31:24 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+ 2022-05-27 11:31:25 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/port/add/
+ 2022-05-27 11:31:25 case.py | INFO | 👀 assertIn title: 增加 port | 后台.
+ 2022-05-27 11:31:25 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+ 2022-05-27 11:31:26 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_name"]  -> input '测试第一版'.
+ 2022-05-27 11:31:26 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_type"]  -> select option.
+ 2022-05-27 11:31:27 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_version"]  -> input '第一版'.
+ 2022-05-27 11:31:28 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="project_form"]/div/div/input[1]  -> click.
+ 2022-05-27 11:31:28 webdriver.py | INFO | ⌛️ implicitly wait: 3s.
+ 2022-05-27 11:31:29 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-filter"]/ul/li[1]/a  -> click.
+ 2022-05-27 11:31:30 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="searchbar"]  -> input '测试第一版'.
+ 2022-05-27 11:31:31 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-search"]/div/input[2]  -> click.
+ 2022-05-27 11:31:32 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> clear input.
+ 2022-05-27 11:31:32 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> input '第二版'.
+ 2022-05-27 11:31:33 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/p/input  -> click.
+ 2022-05-27 11:31:34 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="result_list"]/tbody/tr[1]/td[1]/input  -> click.
+ 2022-05-27 11:31:35 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/label/select  -> select option.
+ 2022-05-27 11:31:36 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/button  -> click.
+ 2022-05-27 11:31:36 webdriver.py | INFO | ⌛️ implicitly wait: 5s.
+ 2022-05-27 11:31:37 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="content"]/form/div/input[4]  -> click.
+ 2022-05-27 11:31:37 webdriver.py | INFO | 📷️  screenshot -> HTML report.
+ 2022-05-27 11:31:37 webdriver.py | INFO | ⌛️ implicitly wait: 5s.
+ 2022-05-27 11:31:37 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/auth/user/
+ 2022-05-27 11:31:48 case.py | WARNING | ❌ assertIn fail: port.
+ 2022-05-27 11:31:48 runner.py | SUCCESS | generated html file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/2022_05_27_11_31_18_result.html
+ 2022-05-27 11:31:48 runner.py | SUCCESS | generated log file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/seldom_log.log
+ 2022-05-27 11:33:40 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 11:33:43 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+ 2022-05-27 11:33:44 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+ 2022-05-27 11:33:45 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+ 2022-05-27 11:33:45 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/port/add/
+ 2022-05-27 11:33:45 case.py | INFO | 👀 assertIn title: 增加 port | 后台.
+ 2022-05-27 11:33:45 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+ 2022-05-27 11:33:46 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_name"]  -> input '测试第一版'.
+ 2022-05-27 11:33:47 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_type"]  -> select option.
+ 2022-05-27 11:33:48 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_version"]  -> input '第一版'.
+ 2022-05-27 11:33:49 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="project_form"]/div/div/input[1]  -> click.
+ 2022-05-27 11:33:49 webdriver.py | INFO | ⌛️ implicitly wait: 3s.
+ 2022-05-27 11:33:50 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-filter"]/ul/li[1]/a  -> click.
+ 2022-05-27 11:33:50 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="searchbar"]  -> input '测试第一版'.
+ 2022-05-27 11:33:51 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-search"]/div/input[2]  -> click.
+ 2022-05-27 11:33:52 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> clear input.
+ 2022-05-27 11:33:53 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> input '第二版'.
+ 2022-05-27 11:33:54 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/p/input  -> click.
+ 2022-05-27 11:33:55 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="result_list"]/tbody/tr[1]/td[1]/input  -> click.
+ 2022-05-27 11:33:55 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/label/select  -> select option.
+ 2022-05-27 11:33:56 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/button  -> click.
+ 2022-05-27 11:33:56 webdriver.py | INFO | ⌛️ implicitly wait: 5s.
+ 2022-05-27 11:33:57 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="content"]/form/div/input[4]  -> click.
+ 2022-05-27 11:33:57 webdriver.py | INFO | 📷️  screenshot -> HTML report.
+ 2022-05-27 11:33:57 webdriver.py | INFO | ⌛️ implicitly wait: 5s.
+ 2022-05-27 11:33:57 webdriver.py | INFO | 🔄️ refresh page.
+ 2022-05-27 11:33:57 webdriver.py | INFO | ⌛️ implicitly wait: 3s.
+ 2022-05-27 11:33:57 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 11:33:58 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+ 2022-05-27 11:33:59 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+ 2022-05-27 11:34:00 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+ 2022-05-27 11:34:00 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/auth/user/
+ 2022-05-27 11:34:11 case.py | WARNING | ❌ assertIn fail: port.
+ 2022-05-27 11:34:11 runner.py | SUCCESS | generated html file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/2022_05_27_11_33_39_result.html
+ 2022-05-27 11:34:11 runner.py | SUCCESS | generated log file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/seldom_log.log
+ 2022-05-27 11:35:57 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 11:36:00 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+ 2022-05-27 11:36:01 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+ 2022-05-27 11:36:02 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+ 2022-05-27 11:36:02 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/port/add/
+ 2022-05-27 11:36:03 case.py | INFO | 👀 assertIn title: 增加 port | 后台.
+ 2022-05-27 11:36:03 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 11:36:13 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 11:36:23 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-27 11:36:34 runner.py | SUCCESS | generated html file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/2022_05_27_11_35_56_result.html
+ 2022-05-27 11:36:34 runner.py | SUCCESS | generated log file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/seldom_log.log
+ 2022-05-27 11:41:04 webdriver.py | INFO | 💤️ sleep: 2s.
+ 2022-05-27 11:41:07 runner.py | SUCCESS | A run the test in debug mode without generating HTML report!
+ 2022-05-27 11:43:17 webdriver.py | INFO | 💤️ sleep: 2s.
+ 2022-05-27 11:43:20 runner.py | SUCCESS | A run the test in debug mode without generating HTML report!
+ 2022-05-27 11:44:11 webdriver.py | INFO | 💤️ sleep: 2s.
+ 2022-05-27 11:44:15 runner.py | SUCCESS | A run the test in debug mode without generating HTML report!
+ 2022-05-27 11:45:06 webdriver.py | INFO | 💤️ sleep: 2s.
+ 2022-05-27 11:45:09 runner.py | SUCCESS | A run the test in debug mode without generating HTML report!
+ 2022-05-28 15:33:26 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/port/add/
+ 2022-05-28 15:33:43 case.py | WARNING | ❌ assertIn fail: port.
+ 2022-05-28 15:33:43 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+ 2022-05-28 15:33:53 webdriver.py | INFO | 🔄️ refresh page.
+ 2022-05-28 15:33:53 webdriver.py | INFO | ⌛️ implicitly wait: 3s.
+ 2022-05-28 15:33:53 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-28 15:33:54 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+ 2022-05-28 15:33:55 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+ 2022-05-28 15:33:56 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+ 2022-05-28 15:33:56 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/auth/user/
+ 2022-05-28 15:34:07 case.py | WARNING | ❌ assertIn fail: port.
+ 2022-05-28 15:34:08 runner.py | SUCCESS | generated html file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/2022_05_28_15_33_26_result.html
+ 2022-05-28 15:34:08 runner.py | SUCCESS | generated log file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/seldom_log.log
+ 2022-05-28 15:38:11 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+ 2022-05-28 15:38:24 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-28 15:38:25 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+ 2022-05-28 15:38:26 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+ 2022-05-28 15:38:27 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+ 2022-05-28 15:38:27 runner.py | SUCCESS | generated html file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/2022_05_28_15_38_10_result.html
+ 2022-05-28 15:38:27 runner.py | SUCCESS | generated log file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/seldom_log.log
+ 2022-05-28 15:39:11 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+ 2022-05-28 15:39:24 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-28 15:39:25 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+ 2022-05-28 15:39:26 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+ 2022-05-28 15:39:26 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+ 2022-05-28 15:39:27 runner.py | SUCCESS | generated html file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/2022_05_28_15_39_10_result.html
+ 2022-05-28 15:39:27 runner.py | SUCCESS | generated log file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/seldom_log.log
+ 2022-05-28 15:43:26 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-28 15:43:30 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+ 2022-05-28 15:43:31 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+ 2022-05-28 15:43:32 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+ 2022-05-28 15:43:32 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+ 2022-05-28 15:43:33 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_name"]  -> input '测试第一版'.
+ 2022-05-28 15:43:34 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_type"]  -> select option.
+ 2022-05-28 15:43:35 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_version"]  -> input '第一版'.
+ 2022-05-28 15:43:36 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="project_form"]/div/div/input[1]  -> click.
+ 2022-05-28 15:43:36 webdriver.py | INFO | ⌛️ implicitly wait: 3s.
+ 2022-05-28 15:43:37 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-filter"]/ul/li[1]/a  -> click.
+ 2022-05-28 15:43:38 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="searchbar"]  -> input '测试第一版'.
+ 2022-05-28 15:43:39 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-search"]/div/input[2]  -> click.
+ 2022-05-28 15:43:40 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> clear input.
+ 2022-05-28 15:43:41 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> input '第二版'.
+ 2022-05-28 15:43:42 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/p/input  -> click.
+ 2022-05-28 15:43:43 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="result_list"]/tbody/tr[1]/td[1]/input  -> click.
+ 2022-05-28 15:43:43 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/label/select  -> select option.
+ 2022-05-28 15:43:44 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/button  -> click.
+ 2022-05-28 15:43:44 webdriver.py | INFO | ⌛️ implicitly wait: 5s.
+ 2022-05-28 15:43:45 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="content"]/form/div/input[4]  -> click.
+ 2022-05-28 15:43:45 webdriver.py | INFO | 📷️  screenshot -> HTML report.
+ 2022-05-28 15:43:45 webdriver.py | INFO | ⌛️ implicitly wait: 5s.
+ 2022-05-28 15:43:45 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/project/port/add/
+ 2022-05-28 15:43:46 case.py | INFO | 👀 assertIn title: 增加 port | 后台.
+ 2022-05-28 15:43:46 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/auth/user/
+ 2022-05-28 15:43:57 case.py | WARNING | ❌ assertIn fail: port.
+ 2022-05-28 15:43:57 runner.py | SUCCESS | generated html file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/2022_05_28_15_43_26_result.html
+ 2022-05-28 15:43:57 runner.py | SUCCESS | generated log file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/test_dir/reports/seldom_log.log
+ 2022-05-28 15:45:35 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-28 15:45:39 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+ 2022-05-28 15:45:40 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+ 2022-05-28 15:45:41 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+ 2022-05-28 15:45:42 webdriver.py | INFO | 🔄️ refresh page.
+ 2022-05-28 15:45:42 webdriver.py | INFO | ⌛️ implicitly wait: 3s.
+ 2022-05-28 15:45:42 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+ 2022-05-28 15:45:43 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+ 2022-05-28 15:45:43 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+ 2022-05-28 15:45:44 webdriver.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+ 2022-05-28 15:45:44 webdriver.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/

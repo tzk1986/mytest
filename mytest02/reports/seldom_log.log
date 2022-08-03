@@ -1,0 +1,38 @@
+[ 2022-05-26 18:29:19 log.py | INFO | 📖 https://cn.bing.com
+[ 2022-05-26 18:29:24 log.py | INFO | ✅ Find 1 element: id=sb_form_q  -> input 'seldom'.
+[ 2022-05-26 18:29:25 log.py | INFO | 👀 assertIn title: seldom - 搜索.
+[ 2022-05-26 18:29:25 log.py | INFO | 📖 https://cn.bing.com
+[ 2022-05-26 18:29:26 log.py | INFO | ✅ Find 1 element: id=sb_form_q  -> input 'poium'.
+[ 2022-05-26 18:29:27 log.py | INFO | 👀 assertIn title: poium - 搜索.
+[ 2022-05-26 18:29:27 log.py | INFO | 📖 https://cn.bing.com
+[ 2022-05-26 18:29:28 log.py | INFO | ✅ Find 1 element: id=sb_form_q  -> input 'XTestRunner'.
+[ 2022-05-26 18:29:29 log.py | INFO | 👀 assertIn title: XTestRunner - 搜索.
+[ 2022-05-26 18:29:29 log.py | INFO | 📖 http://www.itest.info
+[ 2022-05-26 18:29:36 log.py | INFO | 👀 assertIn url: http://www.itest.info/.
+[ 2022-05-26 18:29:36 log.py | SUCCESS | generated html file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/reports/2022_05_26_18_29_18_result.html
+[ 2022-05-26 18:29:36 log.py | SUCCESS | generated log file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/reports/seldom_log.log
+[ 2022-05-26 18:32:00 log.py | INFO | 📖 http://127.0.0.1:8000/admin/login/?next=/admin/
+[ 2022-05-26 18:32:05 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_username"]  -> input 'admin'.
+[ 2022-05-26 18:32:05 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_password"]  -> input 'admin'.
+[ 2022-05-26 18:32:06 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="login-form"]/div[3]/input  -> click.
+[ 2022-05-26 18:32:06 log.py | INFO | 📖 http://127.0.0.1:8000/admin/project/project/add/
+[ 2022-05-26 18:32:07 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_name"]  -> input '测试第一版'.
+[ 2022-05-26 18:32:08 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_type"]  -> select option.
+[ 2022-05-26 18:32:09 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_project_version"]  -> input '第一版'.
+[ 2022-05-26 18:32:10 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="project_form"]/div/div/input[1]  -> click.
+[ 2022-05-26 18:32:10 log.py | INFO | ⌛️ implicitly wait: 3s.
+[ 2022-05-26 18:32:11 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-filter"]/ul/li[1]/a  -> click.
+[ 2022-05-26 18:32:12 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="searchbar"]  -> input '测试第一版'.
+[ 2022-05-26 18:32:13 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-search"]/div/input[2]  -> click.
+[ 2022-05-26 18:32:14 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> clear input.
+[ 2022-05-26 18:32:14 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="id_form-0-project_version"]  -> input '第二版'.
+[ 2022-05-26 18:32:15 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/p/input  -> click.
+[ 2022-05-26 18:32:16 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="result_list"]/tbody/tr[1]/td[1]/input  -> click.
+[ 2022-05-26 18:32:17 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/label/select  -> select option.
+[ 2022-05-26 18:32:18 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="changelist-form"]/div[2]/button  -> click.
+[ 2022-05-26 18:32:18 log.py | INFO | ⌛️ implicitly wait: 5s.
+[ 2022-05-26 18:32:19 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="content"]/form/div/input[4]  -> click.
+[ 2022-05-26 18:32:19 log.py | INFO | 📷️  screenshot -> HTML report.
+[ 2022-05-26 18:32:19 log.py | INFO | ⌛️ implicitly wait: 5s.
+[ 2022-05-26 18:32:19 log.py | SUCCESS | generated html file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/reports/2022_05_26_18_32_00_result.html
+[ 2022-05-26 18:32:19 log.py | SUCCESS | generated log file: file:////Users/tangzhongkai/PycharmProjects/seldomtest/mytest02/reports/seldom_log.log
